@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-16T13:48:38.825210",
+    "source_data": "synthetic marketing data",
+    "total_cases": 49
+  },
+  "cases": [
+    {
+      "id": "custom_metric_4",
+      "category": "custom_metrics",
+      "question": "Calculate the median Conversion Rate across all records. Formula: Conversions / Clicks * 100",
+      "metric_name": "Conversion Rate",
+      "metric_formula": "Conversions / Clicks * 100",
+      "metric_description": "Conversion rate percentage",
+      "aggregation_function": "median",
+      "required_columns": [
+        "Conversions",
+        "Clicks"
+      ],
+      "expected_result": 5.21,
+      "difficulty": "medium"
+    },
+    {
+      "id": "custom_metric_6",
+      "category": "custom_metrics",
+      "question": "Calculate the average Conversion Rate across all records. Formula: Conversions / Clicks * 100",
+      "metric_name": "Conversion Rate",
+      "metric_formula": "Conversions / Clicks * 100",
+      "metric_description": "Conversion rate percentage",
+      "aggregation_function": "mean",
+      "required_columns": [
+        "Conversions",
+        "Clicks"
+      ],
+      "expected_result": 4.72,
+      "difficulty": "medium"
+    },
+    {
+      "id": "custom_metric_12",
+      "category": "custom_metrics",
+      "question": "Calculate the average Conversion Rate across all records. Formula: Conversions / Clicks * 100",
+      "metric_name": "Conversion Rate",
+      "metric_formula": "Conversions / Clicks * 100",
+      "metric_description": "Conversion rate percentage",
+      "aggregation_function": "mean",
+      "required_columns": [
+        "Conversions",
+        "Clicks"
+      ],
+      "expected_result": 4.72,
+      "difficulty": "medium"
+    },
+    {
+      "id": "custom_metric_14",
+      "category": "custom_metrics",
+      "question": "Calculate the average Conversion Rate across all records. Formula: Conversions / Clicks * 100",
+      "metric_name": "Conversion Rate",
+      "metric_formula": "Conversions / Clicks * 100",
+      "metric_description": "Conversion rate percentage",
+      "aggregation_function": "mean",
+      "required_columns": [
+        "Conversions",
+        "Clicks"
+      ],
+      "expected_result": 4.72,
+      "difficulty": "medium"
+    }
+  ]
+}

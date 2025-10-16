@@ -1,0 +1,570 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-16T13:48:38.825210",
+    "source_data": "synthetic marketing data",
+    "total_cases": 49
+  },
+  "cases": [
+    {
+      "id": "time_comp_1",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 158.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 367.0
+      },
+      "expected_result": {
+        "period_1_value": 158.0,
+        "period_2_value": 367.0,
+        "absolute_difference": 209.0,
+        "percent_change": 132.28
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_2",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 2771.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 4294.0
+      },
+      "expected_result": {
+        "period_1_value": 2771.0,
+        "period_2_value": 4294.0,
+        "absolute_difference": 1523.0,
+        "percent_change": 54.96
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_3",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 158.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 367.0
+      },
+      "expected_result": {
+        "period_1_value": 158.0,
+        "period_2_value": 367.0,
+        "absolute_difference": 209.0,
+        "percent_change": 132.28
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_4",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 158.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 367.0
+      },
+      "expected_result": {
+        "period_1_value": 158.0,
+        "period_2_value": 367.0,
+        "absolute_difference": 209.0,
+        "percent_change": 132.28
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_5",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 2771.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 4294.0
+      },
+      "expected_result": {
+        "period_1_value": 2771.0,
+        "period_2_value": 4294.0,
+        "absolute_difference": 1523.0,
+        "percent_change": 54.96
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_6",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 2771.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 4294.0
+      },
+      "expected_result": {
+        "period_1_value": 2771.0,
+        "period_2_value": 4294.0,
+        "absolute_difference": 1523.0,
+        "percent_change": 54.96
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_7",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 2771.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 4294.0
+      },
+      "expected_result": {
+        "period_1_value": 2771.0,
+        "period_2_value": 4294.0,
+        "absolute_difference": 1523.0,
+        "percent_change": 54.96
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_8",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 2771.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 4294.0
+      },
+      "expected_result": {
+        "period_1_value": 2771.0,
+        "period_2_value": 4294.0,
+        "absolute_difference": 1523.0,
+        "percent_change": 54.96
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_9",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 158.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 367.0
+      },
+      "expected_result": {
+        "period_1_value": 158.0,
+        "period_2_value": 367.0,
+        "absolute_difference": 209.0,
+        "percent_change": 132.28
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_10",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 2771.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 4294.0
+      },
+      "expected_result": {
+        "period_1_value": 2771.0,
+        "period_2_value": 4294.0,
+        "absolute_difference": 1523.0,
+        "percent_change": 54.96
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_11",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 158.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 367.0
+      },
+      "expected_result": {
+        "period_1_value": 158.0,
+        "period_2_value": 367.0,
+        "absolute_difference": 209.0,
+        "percent_change": 132.28
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_12",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 2771.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 4294.0
+      },
+      "expected_result": {
+        "period_1_value": 2771.0,
+        "period_2_value": 4294.0,
+        "absolute_difference": 1523.0,
+        "percent_change": 54.96
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_13",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 2771.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 4294.0
+      },
+      "expected_result": {
+        "period_1_value": 2771.0,
+        "period_2_value": 4294.0,
+        "absolute_difference": 1523.0,
+        "percent_change": 54.96
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_14",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 2771.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 4294.0
+      },
+      "expected_result": {
+        "period_1_value": 2771.0,
+        "period_2_value": 4294.0,
+        "absolute_difference": 1523.0,
+        "percent_change": 54.96
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_15",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-03-30",
+        "end": "2024-11-21",
+        "value": 2771.0
+      },
+      "time_period_2": {
+        "start": "2025-02-11",
+        "end": "2025-12-07",
+        "value": 4294.0
+      },
+      "expected_result": {
+        "period_1_value": 2771.0,
+        "period_2_value": 4294.0,
+        "absolute_difference": 1523.0,
+        "percent_change": 54.96
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_grouped_1",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Conversions by Conversion Type between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07.",
+      "metric_column": "Conversions",
+      "group_by_column": "Conversion Type",
+      "time_period_1": "2024-03-30 to 2024-11-21",
+      "time_period_2": "2025-02-11 to 2025-12-07",
+      "expected_result": {
+        "lead": {
+          "period_1": 5.0,
+          "period_2": 82.0,
+          "difference": 77.0,
+          "percent_change": 1540.0
+        },
+        "re-attribution": {
+          "period_1": 119.0,
+          "period_2": 109.0,
+          "difference": -10.0,
+          "percent_change": -8.4
+        },
+        "sign-up": {
+          "period_1": 10.0,
+          "period_2": 58.0,
+          "difference": 48.0,
+          "percent_change": 480.0
+        },
+        "purchase": {
+          "period_1": 24.0,
+          "period_2": 118.0,
+          "difference": 94.0,
+          "percent_change": 391.67
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_2",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Clicks by Campaign (c) between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07.",
+      "metric_column": "Clicks",
+      "group_by_column": "Campaign (c)",
+      "time_period_1": "2024-03-30 to 2024-11-21",
+      "time_period_2": "2025-02-11 to 2025-12-07",
+      "expected_result": {
+        "Holiday Promotion": {
+          "period_1": 0.0,
+          "period_2": 1019.0,
+          "difference": 1019.0,
+          "percent_change": null
+        },
+        "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": {
+          "period_1": 0.0,
+          "period_2": 544.0,
+          "difference": 544.0,
+          "percent_change": null
+        },
+        "Back to School": {
+          "period_1": 0.0,
+          "period_2": 0.0,
+          "difference": 0.0,
+          "percent_change": null
+        },
+        "New Product Launch": {
+          "period_1": 820.0,
+          "period_2": 1402.0,
+          "difference": 582.0,
+          "percent_change": 70.98
+        },
+        "SB_UAC_Hindi_KYC_Completed_April'24": {
+          "period_1": 973.0,
+          "period_2": 1329.0,
+          "difference": 356.0,
+          "percent_change": 36.59
+        },
+        "Summer Sale 2024": {
+          "period_1": 978.0,
+          "period_2": 0.0,
+          "difference": -978.0,
+          "percent_change": -100.0
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_3",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Clicks by Campaign (c) between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07.",
+      "metric_column": "Clicks",
+      "group_by_column": "Campaign (c)",
+      "time_period_1": "2024-03-30 to 2024-11-21",
+      "time_period_2": "2025-02-11 to 2025-12-07",
+      "expected_result": {
+        "Holiday Promotion": {
+          "period_1": 0.0,
+          "period_2": 1019.0,
+          "difference": 1019.0,
+          "percent_change": null
+        },
+        "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": {
+          "period_1": 0.0,
+          "period_2": 544.0,
+          "difference": 544.0,
+          "percent_change": null
+        },
+        "Back to School": {
+          "period_1": 0.0,
+          "period_2": 0.0,
+          "difference": 0.0,
+          "percent_change": null
+        },
+        "New Product Launch": {
+          "period_1": 820.0,
+          "period_2": 1402.0,
+          "difference": 582.0,
+          "percent_change": 70.98
+        },
+        "SB_UAC_Hindi_KYC_Completed_April'24": {
+          "period_1": 973.0,
+          "period_2": 1329.0,
+          "difference": 356.0,
+          "percent_change": 36.59
+        },
+        "Summer Sale 2024": {
+          "period_1": 978.0,
+          "period_2": 0.0,
+          "difference": -978.0,
+          "percent_change": -100.0
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_4",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Conversions by Conversion Type between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07.",
+      "metric_column": "Conversions",
+      "group_by_column": "Conversion Type",
+      "time_period_1": "2024-03-30 to 2024-11-21",
+      "time_period_2": "2025-02-11 to 2025-12-07",
+      "expected_result": {
+        "lead": {
+          "period_1": 5.0,
+          "period_2": 82.0,
+          "difference": 77.0,
+          "percent_change": 1540.0
+        },
+        "re-attribution": {
+          "period_1": 119.0,
+          "period_2": 109.0,
+          "difference": -10.0,
+          "percent_change": -8.4
+        },
+        "sign-up": {
+          "period_1": 10.0,
+          "period_2": 58.0,
+          "difference": 48.0,
+          "percent_change": 480.0
+        },
+        "purchase": {
+          "period_1": 24.0,
+          "period_2": 118.0,
+          "difference": 94.0,
+          "percent_change": 391.67
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_5",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Conversions by Campaign (c) between 2024-03-30 to 2024-11-21 and 2025-02-11 to 2025-12-07.",
+      "metric_column": "Conversions",
+      "group_by_column": "Campaign (c)",
+      "time_period_1": "2024-03-30 to 2024-11-21",
+      "time_period_2": "2025-02-11 to 2025-12-07",
+      "expected_result": {
+        "Holiday Promotion": {
+          "period_1": 0.0,
+          "period_2": 107.0,
+          "difference": 107.0,
+          "percent_change": null
+        },
+        "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": {
+          "period_1": 27.0,
+          "period_2": 56.0,
+          "difference": 29.0,
+          "percent_change": 107.41
+        },
+        "Back to School": {
+          "period_1": 0.0,
+          "period_2": 7.0,
+          "difference": 7.0,
+          "percent_change": null
+        },
+        "New Product Launch": {
+          "period_1": 43.0,
+          "period_2": 63.0,
+          "difference": 20.0,
+          "percent_change": 46.51
+        },
+        "SB_UAC_Hindi_KYC_Completed_April'24": {
+          "period_1": 6.0,
+          "period_2": 59.0,
+          "difference": 53.0,
+          "percent_change": 883.33
+        },
+        "Summer Sale 2024": {
+          "period_1": 82.0,
+          "period_2": 75.0,
+          "difference": -7.0,
+          "percent_change": -8.54
+        }
+      },
+      "difficulty": "hard"
+    }
+  ]
+}

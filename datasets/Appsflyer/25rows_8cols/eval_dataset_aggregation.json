@@ -1,0 +1,530 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-16T13:48:38.825210",
+    "source_data": "synthetic marketing data",
+    "total_cases": 49
+  },
+  "cases": [
+    {
+      "id": "agg_1",
+      "category": "data_aggregation",
+      "question": "What is the max of Conversions by Conversion Type?",
+      "operation": "GROUP BY Conversion Type, MAX(Conversions)",
+      "group_by_column": "Conversion Type",
+      "metric_column": "Conversions",
+      "aggregation_function": "max",
+      "expected_result": {
+        "lead": 39.0,
+        "purchase": 49.0,
+        "re-attribution": 41.0,
+        "sign-up": 26.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_2",
+      "category": "data_aggregation",
+      "question": "What is the total of Clicks by Media Source (pid)?",
+      "operation": "GROUP BY Media Source (pid), SUM(Clicks)",
+      "group_by_column": "Media Source (pid)",
+      "metric_column": "Clicks",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "bing": 734.0,
+        "direct": 1625.0,
+        "email": 851.0,
+        "facebook_int": 276.0,
+        "googleadwords_int": 2375.0,
+        "organic": 1204.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_3",
+      "category": "data_aggregation",
+      "question": "What is the min of Conversions by Country?",
+      "operation": "GROUP BY Country, MIN(Conversions)",
+      "group_by_column": "Country",
+      "metric_column": "Conversions",
+      "aggregation_function": "min",
+      "expected_result": {
+        "AU": 1.0,
+        "BR": 32.0,
+        "CA": 0.0,
+        "DE": 7.0,
+        "FR": 10.0,
+        "GB": 13.0,
+        "IN": 4.0,
+        "JP": 10.0,
+        "MX": 9.0,
+        "US": 12.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_4",
+      "category": "data_aggregation",
+      "question": "What is the total of Conversions by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), SUM(Conversions)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Conversions",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "Agency 1": 27.0,
+        "Agency 10": 70.0,
+        "Agency 3": 88.0,
+        "Agency 4": 0.0,
+        "Agency 7": 33.0,
+        "Agency 8": 42.0,
+        "Agency 9": 28.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_5",
+      "category": "data_aggregation",
+      "question": "What is the avg of Clicks by Campaign (c)?",
+      "operation": "GROUP BY Campaign (c), MEAN(Clicks)",
+      "group_by_column": "Campaign (c)",
+      "metric_column": "Clicks",
+      "aggregation_function": "mean",
+      "expected_result": {
+        "Back to School": null,
+        "Holiday Promotion": 509.5,
+        "New Product Launch": 740.6666666666666,
+        "SB_UAC_Hindi_KYC_Completed_April'24": 575.5,
+        "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 272.0,
+        "Summer Sale 2024": 326.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_6",
+      "category": "data_aggregation",
+      "question": "What is the total of Conversions by Country?",
+      "operation": "GROUP BY Country, SUM(Conversions)",
+      "group_by_column": "Country",
+      "metric_column": "Conversions",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "AU": 6.0,
+        "BR": 69.0,
+        "CA": 27.0,
+        "DE": 7.0,
+        "FR": 95.0,
+        "GB": 39.0,
+        "IN": 74.0,
+        "JP": 38.0,
+        "MX": 125.0,
+        "US": 45.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_7",
+      "category": "data_aggregation",
+      "question": "What is the number of of Clicks by Country?",
+      "operation": "GROUP BY Country, COUNT(Clicks)",
+      "group_by_column": "Country",
+      "metric_column": "Clicks",
+      "aggregation_function": "count",
+      "expected_result": {
+        "AU": 1.0,
+        "BR": 2.0,
+        "CA": 1.0,
+        "DE": 0.0,
+        "FR": 2.0,
+        "GB": 1.0,
+        "IN": 3.0,
+        "JP": 2.0,
+        "MX": 2.0,
+        "US": 0.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_8",
+      "category": "data_aggregation",
+      "question": "What is the number of of Clicks by Conversion Type?",
+      "operation": "GROUP BY Conversion Type, COUNT(Clicks)",
+      "group_by_column": "Conversion Type",
+      "metric_column": "Clicks",
+      "aggregation_function": "count",
+      "expected_result": {
+        "lead": 3.0,
+        "purchase": 4.0,
+        "re-attribution": 5.0,
+        "sign-up": 2.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_9",
+      "category": "data_aggregation",
+      "question": "What is the avg of Clicks by Media Source (pid)?",
+      "operation": "GROUP BY Media Source (pid), MEAN(Clicks)",
+      "group_by_column": "Media Source (pid)",
+      "metric_column": "Clicks",
+      "aggregation_function": "mean",
+      "expected_result": {
+        "bing": 367.0,
+        "direct": 812.5,
+        "email": 851.0,
+        "facebook_int": 276.0,
+        "googleadwords_int": 475.0,
+        "organic": 401.3333333333333
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_10",
+      "category": "data_aggregation",
+      "question": "What is the number of of Clicks by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), COUNT(Clicks)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Clicks",
+      "aggregation_function": "count",
+      "expected_result": {
+        "Agency 1": 0.0,
+        "Agency 10": 2.0,
+        "Agency 3": 0.0,
+        "Agency 4": 1.0,
+        "Agency 7": 0.0,
+        "Agency 8": 2.0,
+        "Agency 9": 0.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_11",
+      "category": "data_aggregation",
+      "question": "What is the min of Clicks by Campaign (c)?",
+      "operation": "GROUP BY Campaign (c), MIN(Clicks)",
+      "group_by_column": "Campaign (c)",
+      "metric_column": "Clicks",
+      "aggregation_function": "min",
+      "expected_result": {
+        "Back to School": null,
+        "Holiday Promotion": 443.0,
+        "New Product Launch": 551.0,
+        "SB_UAC_Hindi_KYC_Completed_April'24": 183.0,
+        "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 268.0,
+        "Summer Sale 2024": 267.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_12",
+      "category": "data_aggregation",
+      "question": "What is the total of Clicks by Media Source (pid)?",
+      "operation": "GROUP BY Media Source (pid), SUM(Clicks)",
+      "group_by_column": "Media Source (pid)",
+      "metric_column": "Clicks",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "bing": 734.0,
+        "direct": 1625.0,
+        "email": 851.0,
+        "facebook_int": 276.0,
+        "googleadwords_int": 2375.0,
+        "organic": 1204.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_13",
+      "category": "data_aggregation",
+      "question": "What is the number of of Clicks by Conversion Type?",
+      "operation": "GROUP BY Conversion Type, COUNT(Clicks)",
+      "group_by_column": "Conversion Type",
+      "metric_column": "Clicks",
+      "aggregation_function": "count",
+      "expected_result": {
+        "lead": 3.0,
+        "purchase": 4.0,
+        "re-attribution": 5.0,
+        "sign-up": 2.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_14",
+      "category": "data_aggregation",
+      "question": "What is the min of Clicks by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), MIN(Clicks)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Clicks",
+      "aggregation_function": "min",
+      "expected_result": {
+        "Agency 1": null,
+        "Agency 10": 443.0,
+        "Agency 3": null,
+        "Agency 4": 183.0,
+        "Agency 7": null,
+        "Agency 8": 551.0,
+        "Agency 9": null
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_15",
+      "category": "data_aggregation",
+      "question": "What is the total of Conversions by Media Source (pid)?",
+      "operation": "GROUP BY Media Source (pid), SUM(Conversions)",
+      "group_by_column": "Media Source (pid)",
+      "metric_column": "Conversions",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "bing": 83.0,
+        "direct": 64.0,
+        "email": 89.0,
+        "facebook_int": 44.0,
+        "googleadwords_int": 155.0,
+        "organic": 90.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_16",
+      "category": "data_aggregation",
+      "question": "What is the avg of Conversions by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), MEAN(Conversions)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Conversions",
+      "aggregation_function": "mean",
+      "expected_result": {
+        "Agency 1": 27.0,
+        "Agency 10": 35.0,
+        "Agency 3": 29.333333333333332,
+        "Agency 4": 0.0,
+        "Agency 7": 33.0,
+        "Agency 8": 21.0,
+        "Agency 9": 14.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_17",
+      "category": "data_aggregation",
+      "question": "What is the number of of Conversions by Conversion Type?",
+      "operation": "GROUP BY Conversion Type, COUNT(Conversions)",
+      "group_by_column": "Conversion Type",
+      "metric_column": "Conversions",
+      "aggregation_function": "count",
+      "expected_result": {
+        "lead": 5.0,
+        "purchase": 7.0,
+        "re-attribution": 9.0,
+        "sign-up": 4.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_18",
+      "category": "data_aggregation",
+      "question": "What is the min of Conversions by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), MIN(Conversions)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Conversions",
+      "aggregation_function": "min",
+      "expected_result": {
+        "Agency 1": 27.0,
+        "Agency 10": 31.0,
+        "Agency 3": 13.0,
+        "Agency 4": 0.0,
+        "Agency 7": 33.0,
+        "Agency 8": 5.0,
+        "Agency 9": 1.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_19",
+      "category": "data_aggregation",
+      "question": "What is the number of of Conversions by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), COUNT(Conversions)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Conversions",
+      "aggregation_function": "count",
+      "expected_result": {
+        "Agency 1": 1.0,
+        "Agency 10": 2.0,
+        "Agency 3": 3.0,
+        "Agency 4": 1.0,
+        "Agency 7": 1.0,
+        "Agency 8": 2.0,
+        "Agency 9": 2.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_20",
+      "category": "data_aggregation",
+      "question": "What is the max of Conversions by Campaign (c)?",
+      "operation": "GROUP BY Campaign (c), MAX(Conversions)",
+      "group_by_column": "Campaign (c)",
+      "metric_column": "Conversions",
+      "aggregation_function": "max",
+      "expected_result": {
+        "Back to School": 7.0,
+        "Holiday Promotion": 49.0,
+        "New Product Launch": 37.0,
+        "SB_UAC_Hindi_KYC_Completed_April'24": 31.0,
+        "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 27.0,
+        "Summer Sale 2024": 41.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_multi_1",
+      "category": "data_aggregation_multi_group",
+      "question": "What is the total of Clicks grouped by Campaign (c) and Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Campaign (c), Agency/PMD (af_prt), SUM(Clicks)",
+      "group_by_columns": [
+        "Campaign (c)",
+        "Agency/PMD (af_prt)"
+      ],
+      "metric_column": "Clicks",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "Holiday Promotion_Agency 10": 443.0,
+        "New Product Launch_Agency 7": 0.0,
+        "New Product Launch_Agency 8": 551.0,
+        "SB_UAC_Hindi_KYC_Completed_April'24_Agency 10": 652.0,
+        "SB_UAC_Hindi_KYC_Completed_April'24_Agency 4": 183.0,
+        "SB_UAC_Hindi_KYC_Completed_April'24_Agency 8": 973.0,
+        "SB_UAC_Hindi_KYC_Completed_April'24_Agency 9": 0.0,
+        "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22_Agency 3": 0.0,
+        "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22_Agency 9": 0.0,
+        "Summer Sale 2024_Agency 1": 0.0,
+        "Summer Sale 2024_Agency 3": 0.0
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "agg_multi_2",
+      "category": "data_aggregation_multi_group",
+      "question": "What is the total of Clicks grouped by Media Source (pid) and Campaign (c)?",
+      "operation": "GROUP BY Media Source (pid), Campaign (c), SUM(Clicks)",
+      "group_by_columns": [
+        "Media Source (pid)",
+        "Campaign (c)"
+      ],
+      "metric_column": "Clicks",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "bing_New Product Launch": 551.0,
+        "bing_SB_UAC_Hindi_KYC_Completed_April'24": 183.0,
+        "bing_SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 0.0,
+        "direct_Holiday Promotion": 0.0,
+        "direct_SB_UAC_Hindi_KYC_Completed_April'24": 1625.0,
+        "direct_Summer Sale 2024": 0.0,
+        "email_New Product Launch": 851.0,
+        "email_Summer Sale 2024": 0.0,
+        "facebook_int_SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 276.0,
+        "facebook_int_Summer Sale 2024": 0.0,
+        "googleadwords_int_Holiday Promotion": 1019.0,
+        "googleadwords_int_New Product Launch": 820.0,
+        "googleadwords_int_SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 268.0,
+        "googleadwords_int_Summer Sale 2024": 268.0,
+        "organic_Back to School": 0.0,
+        "organic_New Product Launch": 0.0,
+        "organic_SB_UAC_Hindi_KYC_Completed_April'24": 494.0,
+        "organic_Summer Sale 2024": 710.0
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "agg_multi_3",
+      "category": "data_aggregation_multi_group",
+      "question": "What is the total of Conversions grouped by Agency/PMD (af_prt) and Media Source (pid)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), Media Source (pid), SUM(Conversions)",
+      "group_by_columns": [
+        "Agency/PMD (af_prt)",
+        "Media Source (pid)"
+      ],
+      "metric_column": "Conversions",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "Agency 1_facebook_int": 27.0,
+        "Agency 10_direct": 31.0,
+        "Agency 10_googleadwords_int": 39.0,
+        "Agency 3_bing": 13.0,
+        "Agency 3_email": 75.0,
+        "Agency 4_bing": 0.0,
+        "Agency 7_bing": 33.0,
+        "Agency 8_bing": 37.0,
+        "Agency 8_direct": 5.0,
+        "Agency 9_googleadwords_int": 27.0,
+        "Agency 9_organic": 1.0
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "agg_multi_4",
+      "category": "data_aggregation_multi_group",
+      "question": "What is the number of of Conversions grouped by Conversion Type and Media Source (pid)?",
+      "operation": "GROUP BY Conversion Type, Media Source (pid), COUNT(Conversions)",
+      "group_by_columns": [
+        "Conversion Type",
+        "Media Source (pid)"
+      ],
+      "metric_column": "Conversions",
+      "aggregation_function": "count",
+      "expected_result": {
+        "lead_direct": 1.0,
+        "lead_googleadwords_int": 2.0,
+        "lead_organic": 2.0,
+        "purchase_direct": 2.0,
+        "purchase_email": 1.0,
+        "purchase_googleadwords_int": 2.0,
+        "purchase_organic": 2.0,
+        "re-attribution_bing": 3.0,
+        "re-attribution_email": 2.0,
+        "re-attribution_facebook_int": 2.0,
+        "re-attribution_googleadwords_int": 1.0,
+        "re-attribution_organic": 1.0,
+        "sign-up_bing": 1.0,
+        "sign-up_direct": 1.0,
+        "sign-up_googleadwords_int": 1.0,
+        "sign-up_organic": 1.0
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "agg_multi_5",
+      "category": "data_aggregation_multi_group",
+      "question": "What is the number of of Clicks grouped by Media Source (pid) and Country?",
+      "operation": "GROUP BY Media Source (pid), Country, COUNT(Clicks)",
+      "group_by_columns": [
+        "Media Source (pid)",
+        "Country"
+      ],
+      "metric_column": "Clicks",
+      "aggregation_function": "count",
+      "expected_result": {
+        "bing_BR": 1.0,
+        "bing_CA": 1.0,
+        "bing_GB": 0.0,
+        "bing_US": 0.0,
+        "direct_AU": 1.0,
+        "direct_IN": 1.0,
+        "direct_MX": 0.0,
+        "email_FR": 0.0,
+        "email_MX": 1.0,
+        "facebook_int_FR": 1.0,
+        "googleadwords_int_CA": 0.0,
+        "googleadwords_int_FR": 1.0,
+        "googleadwords_int_GB": 1.0,
+        "googleadwords_int_IN": 2.0,
+        "googleadwords_int_MX": 1.0,
+        "organic_AU": 0.0,
+        "organic_BR": 1.0,
+        "organic_DE": 0.0,
+        "organic_JP": 2.0,
+        "organic_US": 0.0
+      },
+      "difficulty": "hard"
+    }
+  ]
+}

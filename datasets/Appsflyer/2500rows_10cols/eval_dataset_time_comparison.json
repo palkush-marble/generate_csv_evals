@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-16T13:54:21.343010",
+    "source_data": "synthetic marketing data",
+    "total_cases": 49
+  },
+  "cases": [
+    {
+      "id": "time_comp_1",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversion Rate between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversion Rate",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 312.2195279197255
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 207.27687745632778
+      },
+      "expected_result": {
+        "period_1_value": 312.2195279197255,
+        "period_2_value": 207.27687745632778,
+        "absolute_difference": -104.94265046339774,
+        "percent_change": -33.61
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_2",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversion Rate between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversion Rate",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 312.2195279197255
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 207.27687745632778
+      },
+      "expected_result": {
+        "period_1_value": 312.2195279197255,
+        "period_2_value": 207.27687745632778,
+        "absolute_difference": -104.94265046339774,
+        "percent_change": -33.61
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_3",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversion Rate between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversion Rate",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 312.2195279197255
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 207.27687745632778
+      },
+      "expected_result": {
+        "period_1_value": 312.2195279197255,
+        "period_2_value": 207.27687745632778,
+        "absolute_difference": -104.94265046339774,
+        "percent_change": -33.61
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_4",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 413118.0
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 443535.0
+      },
+      "expected_result": {
+        "period_1_value": 413118.0,
+        "period_2_value": 443535.0,
+        "absolute_difference": 30417.0,
+        "percent_change": 7.36
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_5",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 61726.0
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 62754.0
+      },
+      "expected_result": {
+        "period_1_value": 61726.0,
+        "period_2_value": 62754.0,
+        "absolute_difference": 1028.0,
+        "percent_change": 1.67
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_6",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversion Rate between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversion Rate",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 312.2195279197255
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 207.27687745632778
+      },
+      "expected_result": {
+        "period_1_value": 312.2195279197255,
+        "period_2_value": 207.27687745632778,
+        "absolute_difference": -104.94265046339774,
+        "percent_change": -33.61
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_7",
+      "category": "time_period_comparison",
+      "question": "Compare the total Sessions between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Sessions",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 3123903.0
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 3200780.0
+      },
+      "expected_result": {
+        "period_1_value": 3123903.0,
+        "period_2_value": 3200780.0,
+        "absolute_difference": 76877.0,
+        "percent_change": 2.46
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_8",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 413118.0
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 443535.0
+      },
+      "expected_result": {
+        "period_1_value": 413118.0,
+        "period_2_value": 443535.0,
+        "absolute_difference": 30417.0,
+        "percent_change": 7.36
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_9",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 61726.0
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 62754.0
+      },
+      "expected_result": {
+        "period_1_value": 61726.0,
+        "period_2_value": 62754.0,
+        "absolute_difference": 1028.0,
+        "percent_change": 1.67
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_10",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 61726.0
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 62754.0
+      },
+      "expected_result": {
+        "period_1_value": 61726.0,
+        "period_2_value": 62754.0,
+        "absolute_difference": 1028.0,
+        "percent_change": 1.67
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_11",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 61726.0
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 62754.0
+      },
+      "expected_result": {
+        "period_1_value": 61726.0,
+        "period_2_value": 62754.0,
+        "absolute_difference": 1028.0,
+        "percent_change": 1.67
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_12",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 61726.0
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 62754.0
+      },
+      "expected_result": {
+        "period_1_value": 61726.0,
+        "period_2_value": 62754.0,
+        "absolute_difference": 1028.0,
+        "percent_change": 1.67
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_13",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 61726.0
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 62754.0
+      },
+      "expected_result": {
+        "period_1_value": 61726.0,
+        "period_2_value": 62754.0,
+        "absolute_difference": 1028.0,
+        "percent_change": 1.67
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_14",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversion Rate between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversion Rate",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 312.2195279197255
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 207.27687745632778
+      },
+      "expected_result": {
+        "period_1_value": 312.2195279197255,
+        "period_2_value": 207.27687745632778,
+        "absolute_difference": -104.94265046339774,
+        "percent_change": -33.61
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_15",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-01-01",
+        "end": "2024-12-29",
+        "value": 61726.0
+      },
+      "time_period_2": {
+        "start": "2024-12-30",
+        "end": "2025-12-30",
+        "value": 62754.0
+      },
+      "expected_result": {
+        "period_1_value": 61726.0,
+        "period_2_value": 62754.0,
+        "absolute_difference": 1028.0,
+        "percent_change": 1.67
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_grouped_1",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Conversions by Conversion Type between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30.",
+      "metric_column": "Conversions",
+      "group_by_column": "Conversion Type",
+      "time_period_1": "2024-01-01 to 2024-12-29",
+      "time_period_2": "2024-12-30 to 2025-12-30",
+      "expected_result": {
+        "install": {
+          "period_1": 14093.0,
+          "period_2": 15503.0,
+          "difference": 1410.0,
+          "percent_change": 10.0
+        },
+        "re-attribution": {
+          "period_1": 15775.0,
+          "period_2": 15243.0,
+          "difference": -532.0,
+          "percent_change": -3.37
+        },
+        "lead": {
+          "period_1": 16729.0,
+          "period_2": 17233.0,
+          "difference": 504.0,
+          "percent_change": 3.01
+        },
+        "purchase": {
+          "period_1": 15129.0,
+          "period_2": 14775.0,
+          "difference": -354.0,
+          "percent_change": -2.34
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_2",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Sessions by Agency/PMD (af_prt) between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30.",
+      "metric_column": "Sessions",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "time_period_1": "2024-01-01 to 2024-12-29",
+      "time_period_2": "2024-12-30 to 2025-12-30",
+      "expected_result": {
+        "Agency_5": {
+          "period_1": 75189.0,
+          "period_2": 91440.0,
+          "difference": 16251.0,
+          "percent_change": 21.61
+        },
+        "Agency_4": {
+          "period_1": 100183.0,
+          "period_2": 102485.0,
+          "difference": 2302.0,
+          "percent_change": 2.3
+        },
+        "Agency_6": {
+          "period_1": 92327.0,
+          "period_2": 86560.0,
+          "difference": -5767.0,
+          "percent_change": -6.25
+        },
+        "Agency_7": {
+          "period_1": 76137.0,
+          "period_2": 89188.0,
+          "difference": 13051.0,
+          "percent_change": 17.14
+        },
+        "Agency_1": {
+          "period_1": 88908.0,
+          "period_2": 104654.0,
+          "difference": 15746.0,
+          "percent_change": 17.71
+        },
+        "Agency_2": {
+          "period_1": 115371.0,
+          "period_2": 86314.0,
+          "difference": -29057.0,
+          "percent_change": -25.19
+        },
+        "Agency_9": {
+          "period_1": 79442.0,
+          "period_2": 60329.0,
+          "difference": -19113.0,
+          "percent_change": -24.06
+        },
+        "Agency_3": {
+          "period_1": 112049.0,
+          "period_2": 91455.0,
+          "difference": -20594.0,
+          "percent_change": -18.38
+        },
+        "Agency_10": {
+          "period_1": 93038.0,
+          "period_2": 73623.0,
+          "difference": -19415.0,
+          "percent_change": -20.87
+        },
+        "Agency_8": {
+          "period_1": 81409.0,
+          "period_2": 118497.0,
+          "difference": 37088.0,
+          "percent_change": 45.56
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_3",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Sessions by Media Source (pid) between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30.",
+      "metric_column": "Sessions",
+      "group_by_column": "Media Source (pid)",
+      "time_period_1": "2024-01-01 to 2024-12-29",
+      "time_period_2": "2024-12-30 to 2025-12-30",
+      "expected_result": {
+        "organic": {
+          "period_1": 555176.0,
+          "period_2": 509234.0,
+          "difference": -45942.0,
+          "percent_change": -8.28
+        },
+        "bing_int": {
+          "period_1": 626601.0,
+          "period_2": 682191.0,
+          "difference": 55590.0,
+          "percent_change": 8.87
+        },
+        "facebook_int": {
+          "period_1": 682729.0,
+          "period_2": 648543.0,
+          "difference": -34186.0,
+          "percent_change": -5.01
+        },
+        "googleadwords_int": {
+          "period_1": 630022.0,
+          "period_2": 645446.0,
+          "difference": 15424.0,
+          "percent_change": 2.45
+        },
+        "direct": {
+          "period_1": 629375.0,
+          "period_2": 715366.0,
+          "difference": 85991.0,
+          "percent_change": 13.66
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_4",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Conversions by Conversion Type between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30.",
+      "metric_column": "Conversions",
+      "group_by_column": "Conversion Type",
+      "time_period_1": "2024-01-01 to 2024-12-29",
+      "time_period_2": "2024-12-30 to 2025-12-30",
+      "expected_result": {
+        "install": {
+          "period_1": 14093.0,
+          "period_2": 15503.0,
+          "difference": 1410.0,
+          "percent_change": 10.0
+        },
+        "re-attribution": {
+          "period_1": 15775.0,
+          "period_2": 15243.0,
+          "difference": -532.0,
+          "percent_change": -3.37
+        },
+        "lead": {
+          "period_1": 16729.0,
+          "period_2": 17233.0,
+          "difference": 504.0,
+          "percent_change": 3.01
+        },
+        "purchase": {
+          "period_1": 15129.0,
+          "period_2": 14775.0,
+          "difference": -354.0,
+          "percent_change": -2.34
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_5",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Conversion Rate by Country between 2024-01-01 to 2024-12-29 and 2024-12-30 to 2025-12-30.",
+      "metric_column": "Conversion Rate",
+      "group_by_column": "Country",
+      "time_period_1": "2024-01-01 to 2024-12-29",
+      "time_period_2": "2024-12-30 to 2025-12-30",
+      "expected_result": {
+        "FR": {
+          "period_1": 49.977036346982935,
+          "period_2": 22.019120070269874,
+          "difference": -27.95791627671306,
+          "percent_change": -55.94
+        },
+        "AU": {
+          "period_1": 55.932867775656206,
+          "period_2": 18.387999194032727,
+          "difference": -37.544868581623476,
+          "percent_change": -67.12
+        },
+        "DE": {
+          "period_1": 17.321103515498255,
+          "period_2": 12.669067013012537,
+          "difference": -4.652036502485718,
+          "percent_change": -26.86
+        },
+        "IN": {
+          "period_1": 22.21006920491679,
+          "period_2": 18.33736938262208,
+          "difference": -3.8726998222947095,
+          "percent_change": -17.44
+        },
+        "GB": {
+          "period_1": 16.625194540063248,
+          "period_2": 31.462349249087296,
+          "difference": 14.837154709024048,
+          "percent_change": 89.24
+        },
+        "BR": {
+          "period_1": 26.035403183491383,
+          "period_2": 33.03648155580023,
+          "difference": 7.0010783723088466,
+          "percent_change": 26.89
+        },
+        "US": {
+          "period_1": 86.01303289018601,
+          "period_2": 17.874970956277533,
+          "difference": -68.13806193390847,
+          "percent_change": -79.22
+        },
+        "CA": {
+          "period_1": 23.949719226721,
+          "period_2": 24.04315806992671,
+          "difference": 0.0934388432057105,
+          "percent_change": 0.39
+        },
+        "JP": {
+          "period_1": 14.155101236209678,
+          "period_2": 29.446361965298788,
+          "difference": 15.29126072908911,
+          "percent_change": 108.03
+        }
+      },
+      "difficulty": "hard"
+    }
+  ]
+}
