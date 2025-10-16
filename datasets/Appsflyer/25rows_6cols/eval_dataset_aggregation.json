@@ -1,0 +1,555 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-16T14:15:45.673743",
+    "source_data": "synthetic marketing data",
+    "total_cases": 45
+  },
+  "cases": [
+    {
+      "id": "agg_1",
+      "category": "data_aggregation",
+      "question": "What is the avg of Clicks by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), MEAN(Clicks)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Clicks",
+      "aggregation_function": "mean",
+      "expected_result": {
+        "AdVentures": 84234.0,
+        "DigitalReach": 39944.0,
+        "GrowthMasters": null
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_2",
+      "category": "data_aggregation",
+      "question": "What is the avg of Clicks by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), MEAN(Clicks)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Clicks",
+      "aggregation_function": "mean",
+      "expected_result": {
+        "AdVentures": 84234.0,
+        "DigitalReach": 39944.0,
+        "GrowthMasters": null
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_3",
+      "category": "data_aggregation",
+      "question": "What is the max of Clicks by Country?",
+      "operation": "GROUP BY Country, MAX(Clicks)",
+      "group_by_column": "Country",
+      "metric_column": "Clicks",
+      "aggregation_function": "max",
+      "expected_result": {
+        "AU": 18188.0,
+        "BR": 61700.0,
+        "CA": 91323.0,
+        "DE": 95936.0,
+        "GB": 98261.0,
+        "IN": 59936.0,
+        "US": 78435.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_4",
+      "category": "data_aggregation",
+      "question": "What is the avg of Clicks by Media Source (pid)?",
+      "operation": "GROUP BY Media Source (pid), MEAN(Clicks)",
+      "group_by_column": "Media Source (pid)",
+      "metric_column": "Clicks",
+      "aggregation_function": "mean",
+      "expected_result": {
+        "bing_int": 60200.5,
+        "direct": 65487.4,
+        "email_marketing": 48886.0,
+        "facebook_int": 47497.666666666664,
+        "googleadwords_int": 66585.0,
+        "snapchat_int": 30087.5,
+        "tiktok_int": 8031.666666666667
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_5",
+      "category": "data_aggregation",
+      "question": "What is the max of Clicks by Country?",
+      "operation": "GROUP BY Country, MAX(Clicks)",
+      "group_by_column": "Country",
+      "metric_column": "Clicks",
+      "aggregation_function": "max",
+      "expected_result": {
+        "AU": 18188.0,
+        "BR": 61700.0,
+        "CA": 91323.0,
+        "DE": 95936.0,
+        "GB": 98261.0,
+        "IN": 59936.0,
+        "US": 78435.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_6",
+      "category": "data_aggregation",
+      "question": "What is the min of Clicks by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), MIN(Clicks)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Clicks",
+      "aggregation_function": "min",
+      "expected_result": {
+        "AdVentures": 77145.0,
+        "DigitalReach": 18188.0,
+        "GrowthMasters": null
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_7",
+      "category": "data_aggregation",
+      "question": "What is the total of Clicks by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), SUM(Clicks)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Clicks",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "AdVentures": 168468.0,
+        "DigitalReach": 79888.0,
+        "GrowthMasters": 0.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_8",
+      "category": "data_aggregation",
+      "question": "What is the min of Clicks by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), MIN(Clicks)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Clicks",
+      "aggregation_function": "min",
+      "expected_result": {
+        "AdVentures": 77145.0,
+        "DigitalReach": 18188.0,
+        "GrowthMasters": null
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_9",
+      "category": "data_aggregation",
+      "question": "What is the avg of Clicks by Country?",
+      "operation": "GROUP BY Country, MEAN(Clicks)",
+      "group_by_column": "Country",
+      "metric_column": "Clicks",
+      "aggregation_function": "mean",
+      "expected_result": {
+        "AU": 18188.0,
+        "BR": 24099.333333333332,
+        "CA": 78652.25,
+        "DE": 52502.8,
+        "GB": 60627.0,
+        "IN": 39224.666666666664,
+        "US": 43774.333333333336
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_10",
+      "category": "data_aggregation",
+      "question": "What is the number of of Clicks by Country?",
+      "operation": "GROUP BY Country, COUNT(Clicks)",
+      "group_by_column": "Country",
+      "metric_column": "Clicks",
+      "aggregation_function": "count",
+      "expected_result": {
+        "AU": 1.0,
+        "BR": 3.0,
+        "CA": 4.0,
+        "DE": 5.0,
+        "GB": 4.0,
+        "IN": 3.0,
+        "US": 3.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_11",
+      "category": "data_aggregation",
+      "question": "What is the total of Clicks by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), SUM(Clicks)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Clicks",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "AdVentures": 168468.0,
+        "DigitalReach": 79888.0,
+        "GrowthMasters": 0.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_12",
+      "category": "data_aggregation",
+      "question": "What is the number of of Clicks by Campaign (c)?",
+      "operation": "GROUP BY Campaign (c), COUNT(Clicks)",
+      "group_by_column": "Campaign (c)",
+      "metric_column": "Clicks",
+      "aggregation_function": "count",
+      "expected_result": {
+        "Acquisition_Display_English_App_Install_Mar'22": 1.0,
+        "Acquisition_Display_Hindi_KYC_Completed_Sep'20": 1.0,
+        "Acquisition_Search_English_Sale_Mar'20": 1.0,
+        "Acquisition_UAC_Generic_App_Install_Oct'21": 1.0,
+        "Acquisition_UAC_Spanish_Engagement_Feb'22": 1.0,
+        "Acquisition_Video_Spanish_App_Install_Sep'25": 1.0,
+        "Brand_Display_English_KYC_Completed_Feb'20": 0.0,
+        "Brand_Display_Spanish_Lead_Gen_Apr'21": 1.0,
+        "Brand_PMax_Spanish_Lead_Gen_Aug'24": 1.0,
+        "Brand_Search_Generic_Engagement_Oct'23": 1.0,
+        "Brand_Search_Spanish_App_Install_Nov'21": 1.0,
+        "Brand_Search_Spanish_Sale_Feb'23": 1.0,
+        "Brand_UAC_Generic_Lead_Gen_Jun'21": 0.0,
+        "Brand_Video_English_KYC_Completed_Aug'21": 1.0,
+        "Performance_Display_English_Engagement_Aug'25": 1.0,
+        "Performance_Display_Spanish_Engagement_Aug'21": 1.0,
+        "Performance_PMax_English_App_Install_Apr'23": 1.0,
+        "Performance_PMax_Spanish_KYC_Completed_Apr'22": 1.0,
+        "Performance_Search_Hindi_KYC_Completed_Dec'20": 1.0,
+        "Performance_Video_Spanish_Engagement_Oct'22": 1.0,
+        "Retargeting_Display_English_Lead_Gen_Dec'20": 1.0,
+        "Retargeting_Search_English_KYC_Completed_Aug'24": 1.0,
+        "Retargeting_UAC_Spanish_Sale_Jun'23": 1.0,
+        "SB_Display_Generic_Sale_Jul'23": 1.0,
+        "SB_Search_Generic_Engagement_Jul'21": 1.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_13",
+      "category": "data_aggregation",
+      "question": "What is the avg of Clicks by Media Source (pid)?",
+      "operation": "GROUP BY Media Source (pid), MEAN(Clicks)",
+      "group_by_column": "Media Source (pid)",
+      "metric_column": "Clicks",
+      "aggregation_function": "mean",
+      "expected_result": {
+        "bing_int": 60200.5,
+        "direct": 65487.4,
+        "email_marketing": 48886.0,
+        "facebook_int": 47497.666666666664,
+        "googleadwords_int": 66585.0,
+        "snapchat_int": 30087.5,
+        "tiktok_int": 8031.666666666667
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_14",
+      "category": "data_aggregation",
+      "question": "What is the min of Clicks by Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), MIN(Clicks)",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "metric_column": "Clicks",
+      "aggregation_function": "min",
+      "expected_result": {
+        "AdVentures": 77145.0,
+        "DigitalReach": 18188.0,
+        "GrowthMasters": null
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_15",
+      "category": "data_aggregation",
+      "question": "What is the avg of Clicks by Media Source (pid)?",
+      "operation": "GROUP BY Media Source (pid), MEAN(Clicks)",
+      "group_by_column": "Media Source (pid)",
+      "metric_column": "Clicks",
+      "aggregation_function": "mean",
+      "expected_result": {
+        "bing_int": 60200.5,
+        "direct": 65487.4,
+        "email_marketing": 48886.0,
+        "facebook_int": 47497.666666666664,
+        "googleadwords_int": 66585.0,
+        "snapchat_int": 30087.5,
+        "tiktok_int": 8031.666666666667
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_16",
+      "category": "data_aggregation",
+      "question": "What is the max of Clicks by Campaign (c)?",
+      "operation": "GROUP BY Campaign (c), MAX(Clicks)",
+      "group_by_column": "Campaign (c)",
+      "metric_column": "Clicks",
+      "aggregation_function": "max",
+      "expected_result": {
+        "Acquisition_Display_English_App_Install_Mar'22": 18188.0,
+        "Acquisition_Display_Hindi_KYC_Completed_Sep'20": 78435.0,
+        "Acquisition_Search_English_Sale_Mar'20": 760.0,
+        "Acquisition_UAC_Generic_App_Install_Oct'21": 5451.0,
+        "Acquisition_UAC_Spanish_Engagement_Feb'22": 25161.0,
+        "Acquisition_Video_Spanish_App_Install_Sep'25": 72235.0,
+        "Brand_Display_English_KYC_Completed_Feb'20": null,
+        "Brand_Display_Spanish_Lead_Gen_Apr'21": 27727.0,
+        "Brand_PMax_Spanish_Lead_Gen_Aug'24": 98261.0,
+        "Brand_Search_Generic_Engagement_Oct'23": 30071.0,
+        "Brand_Search_Spanish_App_Install_Nov'21": 95936.0,
+        "Brand_Search_Spanish_Sale_Feb'23": 5147.0,
+        "Brand_UAC_Generic_Lead_Gen_Jun'21": null,
+        "Brand_Video_English_KYC_Completed_Aug'21": 59936.0,
+        "Performance_Display_English_Engagement_Aug'25": 91323.0,
+        "Performance_Display_Spanish_Engagement_Aug'21": 27634.0,
+        "Performance_PMax_English_App_Install_Apr'23": 63512.0,
+        "Performance_PMax_Spanish_KYC_Completed_Apr'22": 27078.0,
+        "Performance_Search_Hindi_KYC_Completed_Dec'20": 61700.0,
+        "Performance_Video_Spanish_Engagement_Oct'22": 72611.0,
+        "Retargeting_Display_English_Lead_Gen_Dec'20": 30104.0,
+        "Retargeting_Search_English_KYC_Completed_Aug'24": 77145.0,
+        "Retargeting_UAC_Spanish_Sale_Jun'23": 73530.0,
+        "SB_Display_Generic_Sale_Jul'23": 63788.0,
+        "SB_Search_Generic_Engagement_Jul'21": 53381.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_17",
+      "category": "data_aggregation",
+      "question": "What is the min of Clicks by Media Source (pid)?",
+      "operation": "GROUP BY Media Source (pid), MIN(Clicks)",
+      "group_by_column": "Media Source (pid)",
+      "metric_column": "Clicks",
+      "aggregation_function": "min",
+      "expected_result": {
+        "bing_int": 27634.0,
+        "direct": 27078.0,
+        "email_marketing": 25161.0,
+        "facebook_int": 5451.0,
+        "googleadwords_int": 53381.0,
+        "snapchat_int": 30071.0,
+        "tiktok_int": 760.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_18",
+      "category": "data_aggregation",
+      "question": "What is the min of Clicks by Media Source (pid)?",
+      "operation": "GROUP BY Media Source (pid), MIN(Clicks)",
+      "group_by_column": "Media Source (pid)",
+      "metric_column": "Clicks",
+      "aggregation_function": "min",
+      "expected_result": {
+        "bing_int": 27634.0,
+        "direct": 27078.0,
+        "email_marketing": 25161.0,
+        "facebook_int": 5451.0,
+        "googleadwords_int": 53381.0,
+        "snapchat_int": 30071.0,
+        "tiktok_int": 760.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_19",
+      "category": "data_aggregation",
+      "question": "What is the total of Clicks by Country?",
+      "operation": "GROUP BY Country, SUM(Clicks)",
+      "group_by_column": "Country",
+      "metric_column": "Clicks",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "AU": 18188.0,
+        "BR": 72298.0,
+        "CA": 314609.0,
+        "DE": 262514.0,
+        "GB": 242508.0,
+        "IN": 117674.0,
+        "US": 131323.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_20",
+      "category": "data_aggregation",
+      "question": "What is the total of Clicks by Campaign (c)?",
+      "operation": "GROUP BY Campaign (c), SUM(Clicks)",
+      "group_by_column": "Campaign (c)",
+      "metric_column": "Clicks",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "Acquisition_Display_English_App_Install_Mar'22": 18188.0,
+        "Acquisition_Display_Hindi_KYC_Completed_Sep'20": 78435.0,
+        "Acquisition_Search_English_Sale_Mar'20": 760.0,
+        "Acquisition_UAC_Generic_App_Install_Oct'21": 5451.0,
+        "Acquisition_UAC_Spanish_Engagement_Feb'22": 25161.0,
+        "Acquisition_Video_Spanish_App_Install_Sep'25": 72235.0,
+        "Brand_Display_English_KYC_Completed_Feb'20": 0.0,
+        "Brand_Display_Spanish_Lead_Gen_Apr'21": 27727.0,
+        "Brand_PMax_Spanish_Lead_Gen_Aug'24": 98261.0,
+        "Brand_Search_Generic_Engagement_Oct'23": 30071.0,
+        "Brand_Search_Spanish_App_Install_Nov'21": 95936.0,
+        "Brand_Search_Spanish_Sale_Feb'23": 5147.0,
+        "Brand_UAC_Generic_Lead_Gen_Jun'21": 0.0,
+        "Brand_Video_English_KYC_Completed_Aug'21": 59936.0,
+        "Performance_Display_English_Engagement_Aug'25": 91323.0,
+        "Performance_Display_Spanish_Engagement_Aug'21": 27634.0,
+        "Performance_PMax_English_App_Install_Apr'23": 63512.0,
+        "Performance_PMax_Spanish_KYC_Completed_Apr'22": 27078.0,
+        "Performance_Search_Hindi_KYC_Completed_Dec'20": 61700.0,
+        "Performance_Video_Spanish_Engagement_Oct'22": 72611.0,
+        "Retargeting_Display_English_Lead_Gen_Dec'20": 30104.0,
+        "Retargeting_Search_English_KYC_Completed_Aug'24": 77145.0,
+        "Retargeting_UAC_Spanish_Sale_Jun'23": 73530.0,
+        "SB_Display_Generic_Sale_Jul'23": 63788.0,
+        "SB_Search_Generic_Engagement_Jul'21": 53381.0
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "agg_multi_1",
+      "category": "data_aggregation_multi_group",
+      "question": "What is the avg of Clicks grouped by Campaign (c) and Agency/PMD (af_prt)?",
+      "operation": "GROUP BY Campaign (c), Agency/PMD (af_prt), MEAN(Clicks)",
+      "group_by_columns": [
+        "Campaign (c)",
+        "Agency/PMD (af_prt)"
+      ],
+      "metric_column": "Clicks",
+      "aggregation_function": "mean",
+      "expected_result": {
+        "Acquisition_Display_English_App_Install_Mar'22_DigitalReach": 18188.0,
+        "Brand_UAC_Generic_Lead_Gen_Jun'21_GrowthMasters": null,
+        "Performance_Display_English_Engagement_Aug'25_AdVentures": 91323.0,
+        "Performance_Search_Hindi_KYC_Completed_Dec'20_DigitalReach": 61700.0,
+        "Retargeting_Search_English_KYC_Completed_Aug'24_AdVentures": 77145.0
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "agg_multi_2",
+      "category": "data_aggregation_multi_group",
+      "question": "What is the avg of Clicks grouped by Media Source (pid) and Campaign (c)?",
+      "operation": "GROUP BY Media Source (pid), Campaign (c), MEAN(Clicks)",
+      "group_by_columns": [
+        "Media Source (pid)",
+        "Campaign (c)"
+      ],
+      "metric_column": "Clicks",
+      "aggregation_function": "mean",
+      "expected_result": {
+        "bing_int_Acquisition_Video_Spanish_App_Install_Sep'25": 72235.0,
+        "bing_int_Performance_Display_Spanish_Engagement_Aug'21": 27634.0,
+        "bing_int_Retargeting_Search_English_KYC_Completed_Aug'24": 77145.0,
+        "bing_int_SB_Display_Generic_Sale_Jul'23": 63788.0,
+        "direct_Acquisition_Display_Hindi_KYC_Completed_Sep'20": 78435.0,
+        "direct_Brand_Display_English_KYC_Completed_Feb'20": null,
+        "direct_Brand_Display_Spanish_Lead_Gen_Apr'21": 27727.0,
+        "direct_Brand_PMax_Spanish_Lead_Gen_Aug'24": 98261.0,
+        "direct_Brand_Search_Spanish_App_Install_Nov'21": 95936.0,
+        "direct_Performance_PMax_Spanish_KYC_Completed_Apr'22": 27078.0,
+        "email_marketing_Acquisition_UAC_Spanish_Engagement_Feb'22": 25161.0,
+        "email_marketing_Brand_UAC_Generic_Lead_Gen_Jun'21": null,
+        "email_marketing_Performance_Video_Spanish_Engagement_Oct'22": 72611.0,
+        "facebook_int_Acquisition_UAC_Generic_App_Install_Oct'21": 5451.0,
+        "facebook_int_Performance_PMax_English_App_Install_Apr'23": 63512.0,
+        "facebook_int_Retargeting_UAC_Spanish_Sale_Jun'23": 73530.0,
+        "googleadwords_int_Brand_Video_English_KYC_Completed_Aug'21": 59936.0,
+        "googleadwords_int_Performance_Display_English_Engagement_Aug'25": 91323.0,
+        "googleadwords_int_Performance_Search_Hindi_KYC_Completed_Dec'20": 61700.0,
+        "googleadwords_int_SB_Search_Generic_Engagement_Jul'21": 53381.0,
+        "snapchat_int_Brand_Search_Generic_Engagement_Oct'23": 30071.0,
+        "snapchat_int_Retargeting_Display_English_Lead_Gen_Dec'20": 30104.0,
+        "tiktok_int_Acquisition_Display_English_App_Install_Mar'22": 18188.0,
+        "tiktok_int_Acquisition_Search_English_Sale_Mar'20": 760.0,
+        "tiktok_int_Brand_Search_Spanish_Sale_Feb'23": 5147.0
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "agg_multi_3",
+      "category": "data_aggregation_multi_group",
+      "question": "What is the number of of Clicks grouped by Agency/PMD (af_prt) and Campaign (c)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), Campaign (c), COUNT(Clicks)",
+      "group_by_columns": [
+        "Agency/PMD (af_prt)",
+        "Campaign (c)"
+      ],
+      "metric_column": "Clicks",
+      "aggregation_function": "count",
+      "expected_result": {
+        "AdVentures_Performance_Display_English_Engagement_Aug'25": 1.0,
+        "AdVentures_Retargeting_Search_English_KYC_Completed_Aug'24": 1.0,
+        "DigitalReach_Acquisition_Display_English_App_Install_Mar'22": 1.0,
+        "DigitalReach_Performance_Search_Hindi_KYC_Completed_Dec'20": 1.0,
+        "GrowthMasters_Brand_UAC_Generic_Lead_Gen_Jun'21": 0.0
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "agg_multi_4",
+      "category": "data_aggregation_multi_group",
+      "question": "What is the total of Clicks grouped by Agency/PMD (af_prt) and Media Source (pid)?",
+      "operation": "GROUP BY Agency/PMD (af_prt), Media Source (pid), SUM(Clicks)",
+      "group_by_columns": [
+        "Agency/PMD (af_prt)",
+        "Media Source (pid)"
+      ],
+      "metric_column": "Clicks",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "AdVentures_bing_int": 77145.0,
+        "AdVentures_googleadwords_int": 91323.0,
+        "DigitalReach_googleadwords_int": 61700.0,
+        "DigitalReach_tiktok_int": 18188.0,
+        "GrowthMasters_email_marketing": 0.0
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "agg_multi_5",
+      "category": "data_aggregation_multi_group",
+      "question": "What is the total of Clicks grouped by Campaign (c) and Media Source (pid)?",
+      "operation": "GROUP BY Campaign (c), Media Source (pid), SUM(Clicks)",
+      "group_by_columns": [
+        "Campaign (c)",
+        "Media Source (pid)"
+      ],
+      "metric_column": "Clicks",
+      "aggregation_function": "sum",
+      "expected_result": {
+        "Acquisition_Display_English_App_Install_Mar'22_tiktok_int": 18188.0,
+        "Acquisition_Display_Hindi_KYC_Completed_Sep'20_direct": 78435.0,
+        "Acquisition_Search_English_Sale_Mar'20_tiktok_int": 760.0,
+        "Acquisition_UAC_Generic_App_Install_Oct'21_facebook_int": 5451.0,
+        "Acquisition_UAC_Spanish_Engagement_Feb'22_email_marketing": 25161.0,
+        "Acquisition_Video_Spanish_App_Install_Sep'25_bing_int": 72235.0,
+        "Brand_Display_English_KYC_Completed_Feb'20_direct": 0.0,
+        "Brand_Display_Spanish_Lead_Gen_Apr'21_direct": 27727.0,
+        "Brand_PMax_Spanish_Lead_Gen_Aug'24_direct": 98261.0,
+        "Brand_Search_Generic_Engagement_Oct'23_snapchat_int": 30071.0,
+        "Brand_Search_Spanish_App_Install_Nov'21_direct": 95936.0,
+        "Brand_Search_Spanish_Sale_Feb'23_tiktok_int": 5147.0,
+        "Brand_UAC_Generic_Lead_Gen_Jun'21_email_marketing": 0.0,
+        "Brand_Video_English_KYC_Completed_Aug'21_googleadwords_int": 59936.0,
+        "Performance_Display_English_Engagement_Aug'25_googleadwords_int": 91323.0,
+        "Performance_Display_Spanish_Engagement_Aug'21_bing_int": 27634.0,
+        "Performance_PMax_English_App_Install_Apr'23_facebook_int": 63512.0,
+        "Performance_PMax_Spanish_KYC_Completed_Apr'22_direct": 27078.0,
+        "Performance_Search_Hindi_KYC_Completed_Dec'20_googleadwords_int": 61700.0,
+        "Performance_Video_Spanish_Engagement_Oct'22_email_marketing": 72611.0,
+        "Retargeting_Display_English_Lead_Gen_Dec'20_snapchat_int": 30104.0,
+        "Retargeting_Search_English_KYC_Completed_Aug'24_bing_int": 77145.0,
+        "Retargeting_UAC_Spanish_Sale_Jun'23_facebook_int": 73530.0,
+        "SB_Display_Generic_Sale_Jul'23_bing_int": 63788.0,
+        "SB_Search_Generic_Engagement_Jul'21_googleadwords_int": 53381.0
+      },
+      "difficulty": "hard"
+    }
+  ]
+}

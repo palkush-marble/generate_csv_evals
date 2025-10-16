@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2025-10-16T13:50:38.485799",
+    "generated_at": "2025-10-16T14:13:31.025617",
     "source_data": "synthetic marketing data",
-    "total_cases": 50
+    "total_cases": 49
   },
   "categories": {
     "data_aggregation": {
@@ -12,113 +12,22 @@
         {
           "id": "agg_1",
           "category": "data_aggregation",
-          "question": "What is the avg of Sessions by Media Source (pid)?",
-          "operation": "GROUP BY Media Source (pid), MEAN(Sessions)",
-          "group_by_column": "Media Source (pid)",
-          "metric_column": "Sessions",
-          "aggregation_function": "mean",
+          "question": "What is the total of Clicks by Agency/PMD (af_prt)?",
+          "operation": "GROUP BY Agency/PMD (af_prt), SUM(Clicks)",
+          "group_by_column": "Agency/PMD (af_prt)",
+          "metric_column": "Clicks",
+          "aggregation_function": "sum",
           "expected_result": {
-            "bingads_int": 511.90909090909093,
-            "direct": 540.95,
-            "facebook_int": 586.3888888888889,
-            "googleadwords_int": 494.76190476190476,
-            "organic": 499.54545454545456,
-            "twitter_int": 544.625
+            "Agency_1": 1192.0,
+            "Agency_2": 982.0,
+            "Agency_3": 3421.0,
+            "Agency_4": 2303.0,
+            "Agency_5": 277.0
           },
           "difficulty": "medium"
         },
         {
           "id": "agg_2",
-          "category": "data_aggregation",
-          "question": "What is the min of Sessions by Country?",
-          "operation": "GROUP BY Country, MIN(Sessions)",
-          "group_by_column": "Country",
-          "metric_column": "Sessions",
-          "aggregation_function": "min",
-          "expected_result": {
-            "AU": 99.0,
-            "BR": 294.0,
-            "CA": 111.0,
-            "DE": 118.0,
-            "FR": 73.0,
-            "GB": 150.0,
-            "IN": 256.0,
-            "JP": 201.0,
-            "US": 147.0
-          },
-          "difficulty": "medium"
-        },
-        {
-          "id": "agg_3",
-          "category": "data_aggregation",
-          "question": "What is the total of Conversions by Media Source (pid)?",
-          "operation": "GROUP BY Media Source (pid), SUM(Conversions)",
-          "group_by_column": "Media Source (pid)",
-          "metric_column": "Conversions",
-          "aggregation_function": "sum",
-          "expected_result": {
-            "bingads_int": 264.0,
-            "direct": 307.0,
-            "facebook_int": 208.0,
-            "googleadwords_int": 163.0,
-            "organic": 78.0,
-            "twitter_int": 81.0
-          },
-          "difficulty": "medium"
-        },
-        {
-          "id": "agg_4",
-          "category": "data_aggregation",
-          "question": "What is the avg of Sessions by Conversion Type?",
-          "operation": "GROUP BY Conversion Type, MEAN(Sessions)",
-          "group_by_column": "Conversion Type",
-          "metric_column": "Sessions",
-          "aggregation_function": "mean",
-          "expected_result": {
-            "attribution": 592.4545454545455,
-            "re-attribution": 488.1714285714286,
-            "view-through": 507.53125
-          },
-          "difficulty": "medium"
-        },
-        {
-          "id": "agg_5",
-          "category": "data_aggregation",
-          "question": "What is the min of Conversion Rate by Media Source (pid)?",
-          "operation": "GROUP BY Media Source (pid), MIN(Conversion Rate)",
-          "group_by_column": "Media Source (pid)",
-          "metric_column": "Conversion Rate",
-          "aggregation_function": "min",
-          "expected_result": {
-            "bingads_int": 0.0,
-            "direct": 0.0,
-            "facebook_int": 0.0,
-            "googleadwords_int": 0.0,
-            "organic": 0.0,
-            "twitter_int": 0.0045112781954887
-          },
-          "difficulty": "medium"
-        },
-        {
-          "id": "agg_6",
-          "category": "data_aggregation",
-          "question": "What is the max of Clicks by Media Source (pid)?",
-          "operation": "GROUP BY Media Source (pid), MAX(Clicks)",
-          "group_by_column": "Media Source (pid)",
-          "metric_column": "Clicks",
-          "aggregation_function": "max",
-          "expected_result": {
-            "bingads_int": 839.0,
-            "direct": 974.0,
-            "facebook_int": 970.0,
-            "googleadwords_int": 440.0,
-            "organic": 565.0,
-            "twitter_int": 665.0
-          },
-          "difficulty": "medium"
-        },
-        {
-          "id": "agg_7",
           "category": "data_aggregation",
           "question": "What is the max of Conversions by Conversion Type?",
           "operation": "GROUP BY Conversion Type, MAX(Conversions)",
@@ -126,102 +35,16 @@
           "metric_column": "Conversions",
           "aggregation_function": "max",
           "expected_result": {
-            "attribution": 84.0,
-            "re-attribution": 73.0,
-            "view-through": 89.0
+            "install": 50.0,
+            "lead": 49.0,
+            "purchase": 50.0,
+            "re-attribution": 47.0,
+            "sign_up": 50.0
           },
           "difficulty": "medium"
         },
         {
-          "id": "agg_8",
-          "category": "data_aggregation",
-          "question": "What is the total of Clicks by Campaign (c)?",
-          "operation": "GROUP BY Campaign (c), SUM(Clicks)",
-          "group_by_column": "Campaign (c)",
-          "metric_column": "Clicks",
-          "aggregation_function": "sum",
-          "expected_result": {
-            "Brand Campaign - Awareness": 5124.0,
-            "New Product Launch": 2473.0,
-            "Performance Campaign - Conversions": 3800.0,
-            "SB_UAC_Hindi_KYC_Completed_April'24": 1655.0,
-            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 3369.0,
-            "Summer Sale - Limited Time Offer": 3067.0
-          },
-          "difficulty": "medium"
-        },
-        {
-          "id": "agg_9",
-          "category": "data_aggregation",
-          "question": "What is the avg of Conversion Rate by Agency/PMD (af_prt)?",
-          "operation": "GROUP BY Agency/PMD (af_prt), MEAN(Conversion Rate)",
-          "group_by_column": "Agency/PMD (af_prt)",
-          "metric_column": "Conversion Rate",
-          "aggregation_function": "mean",
-          "expected_result": {
-            "Agency_1": 0.05449739189378581,
-            "Agency_2": 0.022705146809166726,
-            "Agency_3": 0.057253145533968555,
-            "Agency_4": 0.07037713671600963,
-            "Agency_5": 0.04395578318543423
-          },
-          "difficulty": "medium"
-        },
-        {
-          "id": "agg_10",
-          "category": "data_aggregation",
-          "question": "What is the avg of Conversions by Agency/PMD (af_prt)?",
-          "operation": "GROUP BY Agency/PMD (af_prt), MEAN(Conversions)",
-          "group_by_column": "Agency/PMD (af_prt)",
-          "metric_column": "Conversions",
-          "aggregation_function": "mean",
-          "expected_result": {
-            "Agency_1": 14.428571428571429,
-            "Agency_2": 2.75,
-            "Agency_3": 14.454545454545455,
-            "Agency_4": 9.625,
-            "Agency_5": 12.307692307692308
-          },
-          "difficulty": "medium"
-        },
-        {
-          "id": "agg_11",
-          "category": "data_aggregation",
-          "question": "What is the avg of Conversions by Country?",
-          "operation": "GROUP BY Country, MEAN(Conversions)",
-          "group_by_column": "Country",
-          "metric_column": "Conversions",
-          "aggregation_function": "mean",
-          "expected_result": {
-            "AU": 13.066666666666666,
-            "BR": 9.333333333333334,
-            "CA": 19.25,
-            "DE": 7.857142857142857,
-            "FR": 5.857142857142857,
-            "GB": 10.666666666666666,
-            "IN": 11.2,
-            "JP": 8.818181818181818,
-            "US": 11.076923076923077
-          },
-          "difficulty": "medium"
-        },
-        {
-          "id": "agg_12",
-          "category": "data_aggregation",
-          "question": "What is the number of of Conversion Rate by Conversion Type?",
-          "operation": "GROUP BY Conversion Type, COUNT(Conversion Rate)",
-          "group_by_column": "Conversion Type",
-          "metric_column": "Conversion Rate",
-          "aggregation_function": "count",
-          "expected_result": {
-            "attribution": 27.0,
-            "re-attribution": 30.0,
-            "view-through": 26.0
-          },
-          "difficulty": "medium"
-        },
-        {
-          "id": "agg_13",
+          "id": "agg_3",
           "category": "data_aggregation",
           "question": "What is the number of of Conversion Rate by Media Source (pid)?",
           "operation": "GROUP BY Media Source (pid), COUNT(Conversion Rate)",
@@ -229,386 +52,504 @@
           "metric_column": "Conversion Rate",
           "aggregation_function": "count",
           "expected_result": {
-            "bingads_int": 20.0,
+            "applovin_int": 11.0,
+            "bing_int": 18.0,
             "direct": 17.0,
-            "facebook_int": 13.0,
-            "googleadwords_int": 17.0,
-            "organic": 10.0,
-            "twitter_int": 6.0
+            "facebook_int": 9.0,
+            "googleadwords_int": 8.0,
+            "organic": 12.0
+          },
+          "difficulty": "medium"
+        },
+        {
+          "id": "agg_4",
+          "category": "data_aggregation",
+          "question": "What is the number of of Conversions by Conversion Type?",
+          "operation": "GROUP BY Conversion Type, COUNT(Conversions)",
+          "group_by_column": "Conversion Type",
+          "metric_column": "Conversions",
+          "aggregation_function": "count",
+          "expected_result": {
+            "install": 26.0,
+            "lead": 16.0,
+            "purchase": 20.0,
+            "re-attribution": 20.0,
+            "sign_up": 18.0
+          },
+          "difficulty": "medium"
+        },
+        {
+          "id": "agg_5",
+          "category": "data_aggregation",
+          "question": "What is the number of of Sessions by Agency/PMD (af_prt)?",
+          "operation": "GROUP BY Agency/PMD (af_prt), COUNT(Sessions)",
+          "group_by_column": "Agency/PMD (af_prt)",
+          "metric_column": "Sessions",
+          "aggregation_function": "count",
+          "expected_result": {
+            "Agency_1": 6.0,
+            "Agency_2": 5.0,
+            "Agency_3": 9.0,
+            "Agency_4": 6.0,
+            "Agency_5": 2.0
+          },
+          "difficulty": "medium"
+        },
+        {
+          "id": "agg_6",
+          "category": "data_aggregation",
+          "question": "What is the max of Conversions by Conversion Type?",
+          "operation": "GROUP BY Conversion Type, MAX(Conversions)",
+          "group_by_column": "Conversion Type",
+          "metric_column": "Conversions",
+          "aggregation_function": "max",
+          "expected_result": {
+            "install": 50.0,
+            "lead": 49.0,
+            "purchase": 50.0,
+            "re-attribution": 47.0,
+            "sign_up": 50.0
+          },
+          "difficulty": "medium"
+        },
+        {
+          "id": "agg_7",
+          "category": "data_aggregation",
+          "question": "What is the total of Clicks by Campaign (c)?",
+          "operation": "GROUP BY Campaign (c), SUM(Clicks)",
+          "group_by_column": "Campaign (c)",
+          "metric_column": "Clicks",
+          "aggregation_function": "sum",
+          "expected_result": {
+            "App_Install_Campaign_Android": 6834.0,
+            "Brand_Campaign_Q3": 5508.0,
+            "Generic_Campaign_Mobile": 5302.0,
+            "Lead_Generation_Campaign": 4277.0,
+            "Retargeting_Campaign_Web": 4299.0,
+            "SB_UAC_Hindi_KYC_Completed_April'24": 3093.0,
+            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 5441.0
+          },
+          "difficulty": "medium"
+        },
+        {
+          "id": "agg_8",
+          "category": "data_aggregation",
+          "question": "What is the min of Clicks by Agency/PMD (af_prt)?",
+          "operation": "GROUP BY Agency/PMD (af_prt), MIN(Clicks)",
+          "group_by_column": "Agency/PMD (af_prt)",
+          "metric_column": "Clicks",
+          "aggregation_function": "min",
+          "expected_result": {
+            "Agency_1": 153.0,
+            "Agency_2": 5.0,
+            "Agency_3": 136.0,
+            "Agency_4": 261.0,
+            "Agency_5": 104.0
+          },
+          "difficulty": "medium"
+        },
+        {
+          "id": "agg_9",
+          "category": "data_aggregation",
+          "question": "What is the avg of Conversions by Conversion Type?",
+          "operation": "GROUP BY Conversion Type, MEAN(Conversions)",
+          "group_by_column": "Conversion Type",
+          "metric_column": "Conversions",
+          "aggregation_function": "mean",
+          "expected_result": {
+            "install": 25.384615384615383,
+            "lead": 34.0625,
+            "purchase": 27.75,
+            "re-attribution": 24.0,
+            "sign_up": 27.666666666666668
+          },
+          "difficulty": "medium"
+        },
+        {
+          "id": "agg_10",
+          "category": "data_aggregation",
+          "question": "What is the avg of Conversions by Conversion Type?",
+          "operation": "GROUP BY Conversion Type, MEAN(Conversions)",
+          "group_by_column": "Conversion Type",
+          "metric_column": "Conversions",
+          "aggregation_function": "mean",
+          "expected_result": {
+            "install": 25.384615384615383,
+            "lead": 34.0625,
+            "purchase": 27.75,
+            "re-attribution": 24.0,
+            "sign_up": 27.666666666666668
+          },
+          "difficulty": "medium"
+        },
+        {
+          "id": "agg_11",
+          "category": "data_aggregation",
+          "question": "What is the total of Conversions by Agency/PMD (af_prt)?",
+          "operation": "GROUP BY Agency/PMD (af_prt), SUM(Conversions)",
+          "group_by_column": "Agency/PMD (af_prt)",
+          "metric_column": "Conversions",
+          "aggregation_function": "sum",
+          "expected_result": {
+            "Agency_1": 160.0,
+            "Agency_2": 144.0,
+            "Agency_3": 211.0,
+            "Agency_4": 168.0,
+            "Agency_5": 79.0
+          },
+          "difficulty": "medium"
+        },
+        {
+          "id": "agg_12",
+          "category": "data_aggregation",
+          "question": "What is the min of Conversion Rate by Conversion Type?",
+          "operation": "GROUP BY Conversion Type, MIN(Conversion Rate)",
+          "group_by_column": "Conversion Type",
+          "metric_column": "Conversion Rate",
+          "aggregation_function": "min",
+          "expected_result": {
+            "install": 0.0002,
+            "lead": 0.0072,
+            "purchase": 0.0005,
+            "re-attribution": 0.0003,
+            "sign_up": 0.0008
+          },
+          "difficulty": "medium"
+        },
+        {
+          "id": "agg_13",
+          "category": "data_aggregation",
+          "question": "What is the total of Conversions by Country?",
+          "operation": "GROUP BY Country, SUM(Conversions)",
+          "group_by_column": "Country",
+          "metric_column": "Conversions",
+          "aggregation_function": "sum",
+          "expected_result": {
+            "AU": 275.0,
+            "BR": 270.0,
+            "CA": 347.0,
+            "DE": 372.0,
+            "FR": 441.0,
+            "GB": 147.0,
+            "IN": 137.0,
+            "JP": 461.0,
+            "US": 288.0
           },
           "difficulty": "medium"
         },
         {
           "id": "agg_14",
           "category": "data_aggregation",
-          "question": "What is the number of of Clicks by Conversion Type?",
-          "operation": "GROUP BY Conversion Type, COUNT(Clicks)",
+          "question": "What is the total of Conversion Rate by Conversion Type?",
+          "operation": "GROUP BY Conversion Type, SUM(Conversion Rate)",
           "group_by_column": "Conversion Type",
-          "metric_column": "Clicks",
-          "aggregation_function": "count",
+          "metric_column": "Conversion Rate",
+          "aggregation_function": "sum",
           "expected_result": {
-            "attribution": 28.0,
-            "re-attribution": 30.0,
-            "view-through": 26.0
+            "install": 0.2656,
+            "lead": 0.4053,
+            "purchase": 0.5464,
+            "re-attribution": 0.3549,
+            "sign_up": 0.2196
           },
           "difficulty": "medium"
         },
         {
           "id": "agg_15",
           "category": "data_aggregation",
-          "question": "What is the total of Conversions by Campaign (c)?",
-          "operation": "GROUP BY Campaign (c), SUM(Conversions)",
-          "group_by_column": "Campaign (c)",
+          "question": "What is the number of of Conversions by Agency/PMD (af_prt)?",
+          "operation": "GROUP BY Agency/PMD (af_prt), COUNT(Conversions)",
+          "group_by_column": "Agency/PMD (af_prt)",
           "metric_column": "Conversions",
-          "aggregation_function": "sum",
+          "aggregation_function": "count",
           "expected_result": {
-            "Brand Campaign - Awareness": 259.0,
-            "New Product Launch": 126.0,
-            "Performance Campaign - Conversions": 263.0,
-            "SB_UAC_Hindi_KYC_Completed_April'24": 90.0,
-            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 225.0,
-            "Summer Sale - Limited Time Offer": 138.0
+            "Agency_1": 6.0,
+            "Agency_2": 5.0,
+            "Agency_3": 9.0,
+            "Agency_4": 6.0,
+            "Agency_5": 2.0
           },
           "difficulty": "medium"
         },
         {
           "id": "agg_16",
           "category": "data_aggregation",
-          "question": "What is the avg of Conversions by Media Source (pid)?",
-          "operation": "GROUP BY Media Source (pid), MEAN(Conversions)",
-          "group_by_column": "Media Source (pid)",
-          "metric_column": "Conversions",
-          "aggregation_function": "mean",
+          "question": "What is the number of of Clicks by Agency/PMD (af_prt)?",
+          "operation": "GROUP BY Agency/PMD (af_prt), COUNT(Clicks)",
+          "group_by_column": "Agency/PMD (af_prt)",
+          "metric_column": "Clicks",
+          "aggregation_function": "count",
           "expected_result": {
-            "bingads_int": 12.0,
-            "direct": 15.35,
-            "facebook_int": 11.555555555555555,
-            "googleadwords_int": 7.761904761904762,
-            "organic": 7.090909090909091,
-            "twitter_int": 10.125
+            "Agency_1": 3.0,
+            "Agency_2": 4.0,
+            "Agency_3": 8.0,
+            "Agency_4": 4.0,
+            "Agency_5": 2.0
           },
           "difficulty": "medium"
         },
         {
           "id": "agg_17",
           "category": "data_aggregation",
-          "question": "What is the max of Sessions by Campaign (c)?",
-          "operation": "GROUP BY Campaign (c), MAX(Sessions)",
+          "question": "What is the min of Sessions by Campaign (c)?",
+          "operation": "GROUP BY Campaign (c), MIN(Sessions)",
           "group_by_column": "Campaign (c)",
           "metric_column": "Sessions",
-          "aggregation_function": "max",
+          "aggregation_function": "min",
           "expected_result": {
-            "Brand Campaign - Awareness": 981.0,
-            "New Product Launch": 966.0,
-            "Performance Campaign - Conversions": 960.0,
-            "SB_UAC_Hindi_KYC_Completed_April'24": 895.0,
-            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 991.0,
-            "Summer Sale - Limited Time Offer": 948.0
+            "App_Install_Campaign_Android": 482.0,
+            "Brand_Campaign_Q3": 526.0,
+            "Generic_Campaign_Mobile": 188.0,
+            "Lead_Generation_Campaign": 82.0,
+            "Retargeting_Campaign_Web": 539.0,
+            "SB_UAC_Hindi_KYC_Completed_April'24": 545.0,
+            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 298.0
           },
           "difficulty": "medium"
         },
         {
           "id": "agg_18",
           "category": "data_aggregation",
-          "question": "What is the avg of Conversion Rate by Country?",
-          "operation": "GROUP BY Country, MEAN(Conversion Rate)",
-          "group_by_column": "Country",
-          "metric_column": "Conversion Rate",
+          "question": "What is the avg of Sessions by Agency/PMD (af_prt)?",
+          "operation": "GROUP BY Agency/PMD (af_prt), MEAN(Sessions)",
+          "group_by_column": "Agency/PMD (af_prt)",
+          "metric_column": "Sessions",
           "aggregation_function": "mean",
           "expected_result": {
-            "AU": 0.0600392167468483,
-            "BR": 0.0504129373706891,
-            "CA": 0.046543068395132774,
-            "DE": 0.041257305320126184,
-            "FR": 0.04345350707952074,
-            "GB": 0.06489698196151103,
-            "IN": 0.02168130998506399,
-            "JP": 0.04382603934798118,
-            "US": 0.06040727018043712
+            "Agency_1": 1866.5,
+            "Agency_2": 2315.0,
+            "Agency_3": 2256.4444444444443,
+            "Agency_4": 2010.0,
+            "Agency_5": 1559.0
           },
           "difficulty": "medium"
         },
         {
           "id": "agg_19",
           "category": "data_aggregation",
-          "question": "What is the max of Sessions by Conversion Type?",
-          "operation": "GROUP BY Conversion Type, MAX(Sessions)",
-          "group_by_column": "Conversion Type",
+          "question": "What is the avg of Sessions by Country?",
+          "operation": "GROUP BY Country, MEAN(Sessions)",
+          "group_by_column": "Country",
           "metric_column": "Sessions",
-          "aggregation_function": "max",
+          "aggregation_function": "mean",
           "expected_result": {
-            "attribution": 981.0,
-            "re-attribution": 960.0,
-            "view-through": 991.0
+            "AU": 2242.4,
+            "BR": 2816.9166666666665,
+            "CA": 2035.0,
+            "DE": 2576.0,
+            "FR": 2578.0588235294117,
+            "GB": 2317.8,
+            "IN": 2305.0,
+            "JP": 1854.375,
+            "US": 2476.818181818182
           },
           "difficulty": "medium"
         },
         {
           "id": "agg_20",
           "category": "data_aggregation",
-          "question": "What is the avg of Sessions by Campaign (c)?",
-          "operation": "GROUP BY Campaign (c), MEAN(Sessions)",
-          "group_by_column": "Campaign (c)",
-          "metric_column": "Sessions",
-          "aggregation_function": "mean",
+          "question": "What is the number of of Conversion Rate by Media Source (pid)?",
+          "operation": "GROUP BY Media Source (pid), COUNT(Conversion Rate)",
+          "group_by_column": "Media Source (pid)",
+          "metric_column": "Conversion Rate",
+          "aggregation_function": "count",
           "expected_result": {
-            "Brand Campaign - Awareness": 578.9411764705883,
-            "New Product Launch": 468.3333333333333,
-            "Performance Campaign - Conversions": 496.77777777777777,
-            "SB_UAC_Hindi_KYC_Completed_April'24": 518.7857142857143,
-            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 507.3157894736842,
-            "Summer Sale - Limited Time Offer": 625.8571428571429
+            "applovin_int": 11.0,
+            "bing_int": 18.0,
+            "direct": 17.0,
+            "facebook_int": 9.0,
+            "googleadwords_int": 8.0,
+            "organic": 12.0
           },
           "difficulty": "medium"
         },
         {
           "id": "agg_multi_1",
           "category": "data_aggregation_multi_group",
-          "question": "What is the total of Sessions grouped by Agency/PMD (af_prt) and Country?",
-          "operation": "GROUP BY Agency/PMD (af_prt), Country, SUM(Sessions)",
+          "question": "What is the avg of Sessions grouped by Agency/PMD (af_prt) and Media Source (pid)?",
+          "operation": "GROUP BY Agency/PMD (af_prt), Media Source (pid), MEAN(Sessions)",
           "group_by_columns": [
             "Agency/PMD (af_prt)",
-            "Country"
+            "Media Source (pid)"
           ],
           "metric_column": "Sessions",
-          "aggregation_function": "sum",
+          "aggregation_function": "mean",
           "expected_result": {
-            "Agency_1_AU": 854.0,
-            "Agency_1_BR": 495.0,
-            "Agency_1_CA": 234.0,
-            "Agency_1_DE": 594.0,
-            "Agency_1_FR": 329.0,
-            "Agency_1_GB": 671.0,
-            "Agency_1_IN": 2561.0,
-            "Agency_1_JP": 1497.0,
-            "Agency_1_US": 883.0,
-            "Agency_2_AU": 1326.0,
-            "Agency_2_CA": 873.0,
-            "Agency_2_FR": 2068.0,
-            "Agency_2_GB": 551.0,
-            "Agency_3_AU": 2092.0,
-            "Agency_3_CA": 778.0,
-            "Agency_3_DE": 327.0,
-            "Agency_3_GB": 633.0,
-            "Agency_3_IN": 1448.0,
-            "Agency_3_JP": 520.0,
-            "Agency_3_US": 366.0,
-            "Agency_4_AU": 396.0,
-            "Agency_4_CA": 1799.0,
-            "Agency_4_DE": 587.0,
-            "Agency_4_US": 1396.0,
-            "Agency_5_AU": 343.0,
-            "Agency_5_BR": 1149.0,
-            "Agency_5_CA": 815.0,
-            "Agency_5_FR": 960.0,
-            "Agency_5_GB": 150.0,
-            "Agency_5_IN": 303.0,
-            "Agency_5_JP": 2121.0,
-            "Agency_5_US": 642.0
+            "Agency_1_bing_int": 2512.5,
+            "Agency_1_direct": 1688.5,
+            "Agency_1_googleadwords_int": 2271.0,
+            "Agency_1_organic": 526.0,
+            "Agency_2_applovin_int": 4991.0,
+            "Agency_2_facebook_int": 188.0,
+            "Agency_2_googleadwords_int": 1617.5,
+            "Agency_2_organic": 3161.0,
+            "Agency_3_applovin_int": 4439.0,
+            "Agency_3_bing_int": 2051.0,
+            "Agency_3_direct": 1378.0,
+            "Agency_3_facebook_int": 674.0,
+            "Agency_3_organic": 4235.0,
+            "Agency_4_bing_int": 2166.5,
+            "Agency_4_direct": 1435.5,
+            "Agency_4_googleadwords_int": 687.0,
+            "Agency_4_organic": 4169.0,
+            "Agency_5_applovin_int": 1640.0,
+            "Agency_5_organic": 1478.0
           },
           "difficulty": "hard"
         },
         {
           "id": "agg_multi_2",
           "category": "data_aggregation_multi_group",
-          "question": "What is the avg of Conversions grouped by Country and Media Source (pid)?",
-          "operation": "GROUP BY Country, Media Source (pid), MEAN(Conversions)",
+          "question": "What is the number of of Conversion Rate grouped by Media Source (pid) and Conversion Type?",
+          "operation": "GROUP BY Media Source (pid), Conversion Type, COUNT(Conversion Rate)",
           "group_by_columns": [
-            "Country",
-            "Media Source (pid)"
+            "Media Source (pid)",
+            "Conversion Type"
           ],
-          "metric_column": "Conversions",
-          "aggregation_function": "mean",
+          "metric_column": "Conversion Rate",
+          "aggregation_function": "count",
           "expected_result": {
-            "AU_bingads_int": 12.5,
-            "AU_direct": 18.8,
-            "AU_facebook_int": 2.0,
-            "AU_googleadwords_int": 11.666666666666666,
-            "AU_organic": 10.0,
-            "AU_twitter_int": 5.0,
-            "BR_direct": 6.0,
-            "BR_googleadwords_int": 20.5,
-            "BR_organic": 1.5,
-            "CA_bingads_int": 36.5,
-            "CA_direct": 9.5,
-            "CA_facebook_int": 34.333333333333336,
-            "CA_googleadwords_int": 1.0,
-            "CA_organic": 8.0,
-            "CA_twitter_int": 13.0,
-            "DE_bingads_int": 7.5,
-            "DE_facebook_int": 0.0,
-            "DE_googleadwords_int": 7.5,
-            "DE_organic": 12.5,
-            "FR_bingads_int": 8.666666666666666,
-            "FR_direct": 2.5,
-            "FR_facebook_int": 38.0,
-            "FR_googleadwords_int": 1.3333333333333333,
-            "FR_organic": 0.0,
-            "FR_twitter_int": 2.0,
-            "GB_bingads_int": 4.0,
-            "GB_facebook_int": 6.8,
-            "GB_googleadwords_int": 6.666666666666667,
-            "GB_organic": 24.0,
-            "GB_twitter_int": 23.0,
-            "IN_bingads_int": 3.3333333333333335,
-            "IN_direct": 29.0,
-            "IN_facebook_int": 3.5,
-            "IN_googleadwords_int": 3.0,
-            "IN_organic": 5.0,
-            "JP_bingads_int": 13.0,
-            "JP_direct": 19.0,
-            "JP_facebook_int": 6.5,
-            "JP_googleadwords_int": 2.5,
-            "JP_organic": 2.0,
-            "JP_twitter_int": 0.0,
-            "US_bingads_int": 11.75,
-            "US_direct": 23.5,
-            "US_facebook_int": 3.6666666666666665,
-            "US_googleadwords_int": 12.666666666666666,
-            "US_organic": 1.0
+            "applovin_int_install": 4.0,
+            "applovin_int_lead": 2.0,
+            "applovin_int_purchase": 1.0,
+            "applovin_int_re-attribution": 2.0,
+            "applovin_int_sign_up": 2.0,
+            "bing_int_install": 4.0,
+            "bing_int_lead": 5.0,
+            "bing_int_purchase": 3.0,
+            "bing_int_re-attribution": 3.0,
+            "bing_int_sign_up": 3.0,
+            "direct_install": 2.0,
+            "direct_lead": 1.0,
+            "direct_purchase": 5.0,
+            "direct_re-attribution": 4.0,
+            "direct_sign_up": 5.0,
+            "facebook_int_install": 2.0,
+            "facebook_int_lead": 1.0,
+            "facebook_int_purchase": 1.0,
+            "facebook_int_re-attribution": 3.0,
+            "facebook_int_sign_up": 2.0,
+            "googleadwords_int_install": 3.0,
+            "googleadwords_int_lead": 1.0,
+            "googleadwords_int_purchase": 2.0,
+            "googleadwords_int_re-attribution": 1.0,
+            "googleadwords_int_sign_up": 1.0,
+            "organic_install": 2.0,
+            "organic_lead": 2.0,
+            "organic_purchase": 5.0,
+            "organic_re-attribution": 2.0,
+            "organic_sign_up": 1.0
           },
           "difficulty": "hard"
         },
         {
           "id": "agg_multi_3",
           "category": "data_aggregation_multi_group",
-          "question": "What is the avg of Clicks grouped by Media Source (pid) and Country?",
-          "operation": "GROUP BY Media Source (pid), Country, MEAN(Clicks)",
+          "question": "What is the number of of Conversion Rate grouped by Agency/PMD (af_prt) and Conversion Type?",
+          "operation": "GROUP BY Agency/PMD (af_prt), Conversion Type, COUNT(Conversion Rate)",
           "group_by_columns": [
-            "Media Source (pid)",
-            "Country"
+            "Agency/PMD (af_prt)",
+            "Conversion Type"
           ],
-          "metric_column": "Clicks",
-          "aggregation_function": "mean",
+          "metric_column": "Conversion Rate",
+          "aggregation_function": "count",
           "expected_result": {
-            "bingads_int_AU": 235.5,
-            "bingads_int_CA": 493.0,
-            "bingads_int_DE": 257.0,
-            "bingads_int_FR": 119.66666666666667,
-            "bingads_int_GB": null,
-            "bingads_int_IN": 331.3333333333333,
-            "bingads_int_JP": 196.66666666666666,
-            "bingads_int_US": 168.5,
-            "direct_AU": 301.5,
-            "direct_BR": 241.0,
-            "direct_CA": 236.0,
-            "direct_FR": 57.75,
-            "direct_IN": 555.0,
-            "direct_JP": 256.5,
-            "direct_US": 279.0,
-            "facebook_int_AU": 69.0,
-            "facebook_int_CA": 556.0,
-            "facebook_int_DE": 20.0,
-            "facebook_int_FR": 417.0,
-            "facebook_int_GB": 267.0,
-            "facebook_int_IN": 309.5,
-            "facebook_int_JP": 117.5,
-            "facebook_int_US": 92.0,
-            "googleadwords_int_AU": 173.5,
-            "googleadwords_int_BR": 440.0,
-            "googleadwords_int_CA": 10.0,
-            "googleadwords_int_DE": 169.5,
-            "googleadwords_int_FR": 76.0,
-            "googleadwords_int_GB": 91.66666666666667,
-            "googleadwords_int_IN": 165.0,
-            "googleadwords_int_JP": 81.5,
-            "googleadwords_int_US": 288.0,
-            "organic_AU": 102.0,
-            "organic_BR": 121.0,
-            "organic_CA": 228.0,
-            "organic_DE": 280.5,
-            "organic_FR": 51.0,
-            "organic_GB": 290.0,
-            "organic_IN": 565.0,
-            "organic_JP": 244.0,
-            "organic_US": 106.0,
-            "twitter_int_AU": 112.0,
-            "twitter_int_CA": 535.0,
-            "twitter_int_FR": 100.0,
-            "twitter_int_GB": 508.0,
-            "twitter_int_JP": 0.0
+            "Agency_1_install": 1.0,
+            "Agency_1_purchase": 1.0,
+            "Agency_1_re-attribution": 2.0,
+            "Agency_1_sign_up": 1.0,
+            "Agency_2_install": 1.0,
+            "Agency_2_lead": 1.0,
+            "Agency_2_purchase": 1.0,
+            "Agency_3_install": 1.0,
+            "Agency_3_lead": 0.0,
+            "Agency_3_purchase": 0.0,
+            "Agency_3_re-attribution": 3.0,
+            "Agency_3_sign_up": 1.0,
+            "Agency_4_install": 0.0,
+            "Agency_4_lead": 2.0,
+            "Agency_4_purchase": 2.0,
+            "Agency_4_re-attribution": 0.0,
+            "Agency_5_install": 1.0,
+            "Agency_5_sign_up": 1.0
           },
           "difficulty": "hard"
         },
         {
           "id": "agg_multi_4",
           "category": "data_aggregation_multi_group",
-          "question": "What is the avg of Conversions grouped by Agency/PMD (af_prt) and Campaign (c)?",
-          "operation": "GROUP BY Agency/PMD (af_prt), Campaign (c), MEAN(Conversions)",
+          "question": "What is the number of of Sessions grouped by Media Source (pid) and Conversion Type?",
+          "operation": "GROUP BY Media Source (pid), Conversion Type, COUNT(Sessions)",
           "group_by_columns": [
-            "Agency/PMD (af_prt)",
-            "Campaign (c)"
+            "Media Source (pid)",
+            "Conversion Type"
           ],
-          "metric_column": "Conversions",
-          "aggregation_function": "mean",
+          "metric_column": "Sessions",
+          "aggregation_function": "count",
           "expected_result": {
-            "Agency_1_Brand Campaign - Awareness": 11.0,
-            "Agency_1_New Product Launch": 16.0,
-            "Agency_1_Performance Campaign - Conversions": 26.666666666666668,
-            "Agency_1_SB_UAC_Hindi_KYC_Completed_April'24": 1.5,
-            "Agency_1_SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 23.0,
-            "Agency_1_Summer Sale - Limited Time Offer": 5.0,
-            "Agency_2_Brand Campaign - Awareness": 3.0,
-            "Agency_2_New Product Launch": 0.0,
-            "Agency_2_Performance Campaign - Conversions": 5.333333333333333,
-            "Agency_2_SB_UAC_Hindi_KYC_Completed_April'24": 0.0,
-            "Agency_2_SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 1.0,
-            "Agency_2_Summer Sale - Limited Time Offer": 2.0,
-            "Agency_3_Brand Campaign - Awareness": 30.333333333333332,
-            "Agency_3_New Product Launch": 6.666666666666667,
-            "Agency_3_SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 10.0,
-            "Agency_3_Summer Sale - Limited Time Offer": 8.0,
-            "Agency_4_Brand Campaign - Awareness": 14.0,
-            "Agency_4_New Product Launch": 1.0,
-            "Agency_4_Performance Campaign - Conversions": 16.5,
-            "Agency_4_SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 2.0,
-            "Agency_4_Summer Sale - Limited Time Offer": 9.0,
-            "Agency_5_Brand Campaign - Awareness": 4.0,
-            "Agency_5_New Product Launch": 3.5,
-            "Agency_5_Performance Campaign - Conversions": 19.75,
-            "Agency_5_SB_UAC_Hindi_KYC_Completed_April'24": 13.5,
-            "Agency_5_SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 12.0
+            "applovin_int_install": 5.0,
+            "applovin_int_lead": 3.0,
+            "applovin_int_purchase": 1.0,
+            "applovin_int_re-attribution": 3.0,
+            "applovin_int_sign_up": 2.0,
+            "bing_int_install": 9.0,
+            "bing_int_lead": 6.0,
+            "bing_int_purchase": 3.0,
+            "bing_int_re-attribution": 4.0,
+            "bing_int_sign_up": 4.0,
+            "direct_install": 4.0,
+            "direct_lead": 1.0,
+            "direct_purchase": 8.0,
+            "direct_re-attribution": 5.0,
+            "direct_sign_up": 5.0,
+            "facebook_int_install": 2.0,
+            "facebook_int_lead": 2.0,
+            "facebook_int_purchase": 1.0,
+            "facebook_int_re-attribution": 4.0,
+            "facebook_int_sign_up": 3.0,
+            "googleadwords_int_install": 4.0,
+            "googleadwords_int_lead": 1.0,
+            "googleadwords_int_purchase": 2.0,
+            "googleadwords_int_re-attribution": 2.0,
+            "googleadwords_int_sign_up": 1.0,
+            "organic_install": 2.0,
+            "organic_lead": 3.0,
+            "organic_purchase": 5.0,
+            "organic_re-attribution": 2.0,
+            "organic_sign_up": 3.0
           },
           "difficulty": "hard"
         },
         {
           "id": "agg_multi_5",
           "category": "data_aggregation_multi_group",
-          "question": "What is the avg of Conversions grouped by Campaign (c) and Agency/PMD (af_prt)?",
-          "operation": "GROUP BY Campaign (c), Agency/PMD (af_prt), MEAN(Conversions)",
+          "question": "What is the number of of Conversions grouped by Agency/PMD (af_prt) and Conversion Type?",
+          "operation": "GROUP BY Agency/PMD (af_prt), Conversion Type, COUNT(Conversions)",
           "group_by_columns": [
-            "Campaign (c)",
-            "Agency/PMD (af_prt)"
+            "Agency/PMD (af_prt)",
+            "Conversion Type"
           ],
           "metric_column": "Conversions",
-          "aggregation_function": "mean",
+          "aggregation_function": "count",
           "expected_result": {
-            "Brand Campaign - Awareness_Agency_1": 11.0,
-            "Brand Campaign - Awareness_Agency_2": 3.0,
-            "Brand Campaign - Awareness_Agency_3": 30.333333333333332,
-            "Brand Campaign - Awareness_Agency_4": 14.0,
-            "Brand Campaign - Awareness_Agency_5": 4.0,
-            "New Product Launch_Agency_1": 16.0,
-            "New Product Launch_Agency_2": 0.0,
-            "New Product Launch_Agency_3": 6.666666666666667,
-            "New Product Launch_Agency_4": 1.0,
-            "New Product Launch_Agency_5": 3.5,
-            "Performance Campaign - Conversions_Agency_1": 26.666666666666668,
-            "Performance Campaign - Conversions_Agency_2": 5.333333333333333,
-            "Performance Campaign - Conversions_Agency_4": 16.5,
-            "Performance Campaign - Conversions_Agency_5": 19.75,
-            "SB_UAC_Hindi_KYC_Completed_April'24_Agency_1": 1.5,
-            "SB_UAC_Hindi_KYC_Completed_April'24_Agency_2": 0.0,
-            "SB_UAC_Hindi_KYC_Completed_April'24_Agency_5": 13.5,
-            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22_Agency_1": 23.0,
-            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22_Agency_2": 1.0,
-            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22_Agency_3": 10.0,
-            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22_Agency_4": 2.0,
-            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22_Agency_5": 12.0,
-            "Summer Sale - Limited Time Offer_Agency_1": 5.0,
-            "Summer Sale - Limited Time Offer_Agency_2": 2.0,
-            "Summer Sale - Limited Time Offer_Agency_3": 8.0,
-            "Summer Sale - Limited Time Offer_Agency_4": 9.0
+            "Agency_1_install": 1.0,
+            "Agency_1_purchase": 2.0,
+            "Agency_1_re-attribution": 2.0,
+            "Agency_1_sign_up": 1.0,
+            "Agency_2_install": 1.0,
+            "Agency_2_lead": 3.0,
+            "Agency_2_purchase": 1.0,
+            "Agency_3_install": 2.0,
+            "Agency_3_lead": 1.0,
+            "Agency_3_purchase": 1.0,
+            "Agency_3_re-attribution": 3.0,
+            "Agency_3_sign_up": 2.0,
+            "Agency_4_install": 1.0,
+            "Agency_4_lead": 2.0,
+            "Agency_4_purchase": 2.0,
+            "Agency_4_re-attribution": 1.0,
+            "Agency_5_install": 1.0,
+            "Agency_5_sign_up": 1.0
           },
           "difficulty": "hard"
         }
@@ -621,392 +562,410 @@
         {
           "id": "time_comp_1",
           "category": "time_period_comparison",
-          "question": "Compare the total Conversions between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
-          "metric_column": "Conversions",
+          "question": "Compare the total Conversion Rate between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
+          "metric_column": "Conversion Rate",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 794.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 0.9793
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 307.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 0.8125
           },
           "expected_result": {
-            "period_1_value": 794.0,
-            "period_2_value": 307.0,
-            "absolute_difference": -487.0,
-            "percent_change": -61.34
+            "period_1_value": 0.9793,
+            "period_2_value": 0.8125,
+            "absolute_difference": -0.16679999999999995,
+            "percent_change": -17.03
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_2",
           "category": "time_period_comparison",
-          "question": "Compare the total Conversions between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
+          "question": "Compare the total Conversions between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
           "metric_column": "Conversions",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 794.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 1387.0
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 307.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 1351.0
           },
           "expected_result": {
-            "period_1_value": 794.0,
-            "period_2_value": 307.0,
-            "absolute_difference": -487.0,
-            "percent_change": -61.34
+            "period_1_value": 1387.0,
+            "period_2_value": 1351.0,
+            "absolute_difference": -36.0,
+            "percent_change": -2.6
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_3",
           "category": "time_period_comparison",
-          "question": "Compare the total Conversions between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
-          "metric_column": "Conversions",
+          "question": "Compare the total Sessions between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
+          "metric_column": "Sessions",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 794.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 116191.0
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 307.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 119765.0
           },
           "expected_result": {
-            "period_1_value": 794.0,
-            "period_2_value": 307.0,
-            "absolute_difference": -487.0,
-            "percent_change": -61.34
+            "period_1_value": 116191.0,
+            "period_2_value": 119765.0,
+            "absolute_difference": 3574.0,
+            "percent_change": 3.08
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_4",
           "category": "time_period_comparison",
-          "question": "Compare the total Conversions between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
-          "metric_column": "Conversions",
+          "question": "Compare the total Conversion Rate between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
+          "metric_column": "Conversion Rate",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 794.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 0.9793
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 307.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 0.8125
           },
           "expected_result": {
-            "period_1_value": 794.0,
-            "period_2_value": 307.0,
-            "absolute_difference": -487.0,
-            "percent_change": -61.34
+            "period_1_value": 0.9793,
+            "period_2_value": 0.8125,
+            "absolute_difference": -0.16679999999999995,
+            "percent_change": -17.03
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_5",
           "category": "time_period_comparison",
-          "question": "Compare the total Conversions between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
+          "question": "Compare the total Conversions between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
           "metric_column": "Conversions",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 794.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 1387.0
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 307.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 1351.0
           },
           "expected_result": {
-            "period_1_value": 794.0,
-            "period_2_value": 307.0,
-            "absolute_difference": -487.0,
-            "percent_change": -61.34
+            "period_1_value": 1387.0,
+            "period_2_value": 1351.0,
+            "absolute_difference": -36.0,
+            "percent_change": -2.6
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_6",
           "category": "time_period_comparison",
-          "question": "Compare the total Clicks between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
+          "question": "Compare the total Clicks between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
           "metric_column": "Clicks",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 12393.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 15898.0
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 7095.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 18856.0
           },
           "expected_result": {
-            "period_1_value": 12393.0,
-            "period_2_value": 7095.0,
-            "absolute_difference": -5298.0,
-            "percent_change": -42.75
+            "period_1_value": 15898.0,
+            "period_2_value": 18856.0,
+            "absolute_difference": 2958.0,
+            "percent_change": 18.61
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_7",
           "category": "time_period_comparison",
-          "question": "Compare the total Conversion Rate between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
-          "metric_column": "Conversion Rate",
+          "question": "Compare the total Conversions between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
+          "metric_column": "Conversions",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 2.2679001175153144
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 1387.0
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 1.7234589545666248
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 1351.0
           },
           "expected_result": {
-            "period_1_value": 2.2679001175153144,
-            "period_2_value": 1.7234589545666248,
-            "absolute_difference": -0.5444411629486896,
-            "percent_change": -24.01
+            "period_1_value": 1387.0,
+            "period_2_value": 1351.0,
+            "absolute_difference": -36.0,
+            "percent_change": -2.6
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_8",
           "category": "time_period_comparison",
-          "question": "Compare the total Conversions between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
+          "question": "Compare the total Conversions between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
           "metric_column": "Conversions",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 794.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 1387.0
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 307.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 1351.0
           },
           "expected_result": {
-            "period_1_value": 794.0,
-            "period_2_value": 307.0,
-            "absolute_difference": -487.0,
-            "percent_change": -61.34
+            "period_1_value": 1387.0,
+            "period_2_value": 1351.0,
+            "absolute_difference": -36.0,
+            "percent_change": -2.6
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_9",
           "category": "time_period_comparison",
-          "question": "Compare the total Conversion Rate between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
-          "metric_column": "Conversion Rate",
+          "question": "Compare the total Clicks between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
+          "metric_column": "Clicks",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 2.2679001175153144
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 15898.0
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 1.7234589545666248
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 18856.0
           },
           "expected_result": {
-            "period_1_value": 2.2679001175153144,
-            "period_2_value": 1.7234589545666248,
-            "absolute_difference": -0.5444411629486896,
-            "percent_change": -24.01
+            "period_1_value": 15898.0,
+            "period_2_value": 18856.0,
+            "absolute_difference": 2958.0,
+            "percent_change": 18.61
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_10",
           "category": "time_period_comparison",
-          "question": "Compare the total Clicks between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
-          "metric_column": "Clicks",
+          "question": "Compare the total Conversion Rate between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
+          "metric_column": "Conversion Rate",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 12393.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 0.9793
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 7095.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 0.8125
           },
           "expected_result": {
-            "period_1_value": 12393.0,
-            "period_2_value": 7095.0,
-            "absolute_difference": -5298.0,
-            "percent_change": -42.75
+            "period_1_value": 0.9793,
+            "period_2_value": 0.8125,
+            "absolute_difference": -0.16679999999999995,
+            "percent_change": -17.03
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_11",
           "category": "time_period_comparison",
-          "question": "Compare the total Clicks between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
-          "metric_column": "Clicks",
+          "question": "Compare the total Sessions between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
+          "metric_column": "Sessions",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 12393.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 116191.0
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 7095.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 119765.0
           },
           "expected_result": {
-            "period_1_value": 12393.0,
-            "period_2_value": 7095.0,
-            "absolute_difference": -5298.0,
-            "percent_change": -42.75
+            "period_1_value": 116191.0,
+            "period_2_value": 119765.0,
+            "absolute_difference": 3574.0,
+            "percent_change": 3.08
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_12",
           "category": "time_period_comparison",
-          "question": "Compare the total Clicks between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
-          "metric_column": "Clicks",
+          "question": "Compare the total Sessions between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
+          "metric_column": "Sessions",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 12393.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 116191.0
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 7095.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 119765.0
           },
           "expected_result": {
-            "period_1_value": 12393.0,
-            "period_2_value": 7095.0,
-            "absolute_difference": -5298.0,
-            "percent_change": -42.75
+            "period_1_value": 116191.0,
+            "period_2_value": 119765.0,
+            "absolute_difference": 3574.0,
+            "percent_change": 3.08
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_13",
           "category": "time_period_comparison",
-          "question": "Compare the total Sessions between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
-          "metric_column": "Sessions",
+          "question": "Compare the total Clicks between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
+          "metric_column": "Clicks",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 27289.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 15898.0
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 25589.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 18856.0
           },
           "expected_result": {
-            "period_1_value": 27289.0,
-            "period_2_value": 25589.0,
-            "absolute_difference": -1700.0,
-            "percent_change": -6.23
+            "period_1_value": 15898.0,
+            "period_2_value": 18856.0,
+            "absolute_difference": 2958.0,
+            "percent_change": 18.61
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_14",
           "category": "time_period_comparison",
-          "question": "Compare the total Conversions between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
-          "metric_column": "Conversions",
+          "question": "Compare the total Conversion Rate between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
+          "metric_column": "Conversion Rate",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 794.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 0.9793
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 307.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 0.8125
           },
           "expected_result": {
-            "period_1_value": 794.0,
-            "period_2_value": 307.0,
-            "absolute_difference": -487.0,
-            "percent_change": -61.34
+            "period_1_value": 0.9793,
+            "period_2_value": 0.8125,
+            "absolute_difference": -0.16679999999999995,
+            "percent_change": -17.03
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_15",
           "category": "time_period_comparison",
-          "question": "Compare the total Clicks between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28. What is the difference?",
-          "metric_column": "Clicks",
+          "question": "Compare the total Conversion Rate between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27. What is the difference?",
+          "metric_column": "Conversion Rate",
           "time_period_1": {
-            "start": "2024-01-10",
-            "end": "2024-12-20",
-            "value": 12393.0
+            "start": "2024-01-05",
+            "end": "2024-12-28",
+            "value": 0.9793
           },
           "time_period_2": {
-            "start": "2025-01-05",
-            "end": "2025-12-28",
-            "value": 7095.0
+            "start": "2025-01-01",
+            "end": "2025-12-27",
+            "value": 0.8125
           },
           "expected_result": {
-            "period_1_value": 12393.0,
-            "period_2_value": 7095.0,
-            "absolute_difference": -5298.0,
-            "percent_change": -42.75
+            "period_1_value": 0.9793,
+            "period_2_value": 0.8125,
+            "absolute_difference": -0.16679999999999995,
+            "percent_change": -17.03
           },
           "difficulty": "medium"
         },
         {
           "id": "time_comp_grouped_1",
           "category": "time_period_comparison_grouped",
-          "question": "Compare the total Conversions by Media Source (pid) between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28.",
+          "question": "Compare the total Conversions by Country between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27.",
           "metric_column": "Conversions",
-          "group_by_column": "Media Source (pid)",
-          "time_period_1": "2024-01-10 to 2024-12-20",
-          "time_period_2": "2025-01-05 to 2025-12-28",
+          "group_by_column": "Country",
+          "time_period_1": "2024-01-05 to 2024-12-28",
+          "time_period_2": "2025-01-01 to 2025-12-27",
           "expected_result": {
-            "direct": {
-              "period_1": 234.0,
-              "period_2": 73.0,
-              "difference": -161.0,
-              "percent_change": -68.8
+            "DE": {
+              "period_1": 175.0,
+              "period_2": 197.0,
+              "difference": 22.0,
+              "percent_change": 12.57
             },
-            "googleadwords_int": {
-              "period_1": 136.0,
-              "period_2": 27.0,
-              "difference": -109.0,
-              "percent_change": -80.15
+            "JP": {
+              "period_1": 291.0,
+              "period_2": 170.0,
+              "difference": -121.0,
+              "percent_change": -41.58
             },
-            "organic": {
-              "period_1": 63.0,
-              "period_2": 15.0,
-              "difference": -48.0,
-              "percent_change": -76.19
+            "IN": {
+              "period_1": 53.0,
+              "period_2": 84.0,
+              "difference": 31.0,
+              "percent_change": 58.49
             },
-            "facebook_int": {
+            "FR": {
               "period_1": 163.0,
-              "period_2": 45.0,
-              "difference": -118.0,
-              "percent_change": -72.39
+              "period_2": 278.0,
+              "difference": 115.0,
+              "percent_change": 70.55
             },
-            "bingads_int": {
-              "period_1": 126.0,
-              "period_2": 138.0,
-              "difference": 12.0,
-              "percent_change": 9.52
+            "US": {
+              "period_1": 12.0,
+              "period_2": 276.0,
+              "difference": 264.0,
+              "percent_change": 2200.0
             },
-            "twitter_int": {
+            "AU": {
+              "period_1": 263.0,
+              "period_2": 12.0,
+              "difference": -251.0,
+              "percent_change": -95.44
+            },
+            "BR": {
+              "period_1": 181.0,
+              "period_2": 89.0,
+              "difference": -92.0,
+              "percent_change": -50.83
+            },
+            "CA": {
+              "period_1": 177.0,
+              "period_2": 170.0,
+              "difference": -7.0,
+              "percent_change": -3.95
+            },
+            "GB": {
               "period_1": 72.0,
-              "period_2": 9.0,
-              "difference": -63.0,
-              "percent_change": -87.5
+              "period_2": 75.0,
+              "difference": 3.0,
+              "percent_change": 4.17
             }
           },
           "difficulty": "hard"
@@ -1014,29 +973,41 @@
         {
           "id": "time_comp_grouped_2",
           "category": "time_period_comparison_grouped",
-          "question": "Compare the total Conversion Rate by Conversion Type between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28.",
-          "metric_column": "Conversion Rate",
-          "group_by_column": "Conversion Type",
-          "time_period_1": "2024-01-10 to 2024-12-20",
-          "time_period_2": "2025-01-05 to 2025-12-28",
+          "question": "Compare the total Clicks by Agency/PMD (af_prt) between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27.",
+          "metric_column": "Clicks",
+          "group_by_column": "Agency/PMD (af_prt)",
+          "time_period_1": "2024-01-05 to 2024-12-28",
+          "time_period_2": "2025-01-01 to 2025-12-27",
           "expected_result": {
-            "re-attribution": {
-              "period_1": 1.0869747145046513,
-              "period_2": 0.5835551320414596,
-              "difference": -0.5034195824631917,
-              "percent_change": -46.31
+            "Agency_5": {
+              "period_1": 104.0,
+              "period_2": 173.0,
+              "difference": 69.0,
+              "percent_change": 66.35
             },
-            "view-through": {
-              "period_1": 0.2907994839127272,
-              "period_2": 0.571043244627305,
-              "difference": 0.28024376071457785,
-              "percent_change": 96.37
+            "Agency_2": {
+              "period_1": 185.0,
+              "period_2": 797.0,
+              "difference": 612.0,
+              "percent_change": 330.81
             },
-            "attribution": {
-              "period_1": 0.8901259190979358,
-              "period_2": 0.5688605778978602,
-              "difference": -0.32126534120007566,
-              "percent_change": -36.09
+            "Agency_4": {
+              "period_1": 1471.0,
+              "period_2": 832.0,
+              "difference": -639.0,
+              "percent_change": -43.44
+            },
+            "Agency_1": {
+              "period_1": 153.0,
+              "period_2": 1039.0,
+              "difference": 886.0,
+              "percent_change": 579.08
+            },
+            "Agency_3": {
+              "period_1": 3218.0,
+              "period_2": 203.0,
+              "difference": -3015.0,
+              "percent_change": -93.69
             }
           },
           "difficulty": "hard"
@@ -1044,47 +1015,65 @@
         {
           "id": "time_comp_grouped_3",
           "category": "time_period_comparison_grouped",
-          "question": "Compare the total Conversion Rate by Media Source (pid) between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28.",
-          "metric_column": "Conversion Rate",
-          "group_by_column": "Media Source (pid)",
-          "time_period_1": "2024-01-10 to 2024-12-20",
-          "time_period_2": "2025-01-05 to 2025-12-28",
+          "question": "Compare the total Sessions by Country between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27.",
+          "metric_column": "Sessions",
+          "group_by_column": "Country",
+          "time_period_1": "2024-01-05 to 2024-12-28",
+          "time_period_2": "2025-01-01 to 2025-12-27",
           "expected_result": {
-            "direct": {
-              "period_1": 0.4647267070055813,
-              "period_2": 0.35870641219916133,
-              "difference": -0.10602029480641995,
-              "percent_change": -22.81
+            "DE": {
+              "period_1": 16986.0,
+              "period_2": 16502.0,
+              "difference": -484.0,
+              "percent_change": -2.85
             },
-            "googleadwords_int": {
-              "period_1": 0.6315967481004987,
-              "period_2": 0.2494372239002743,
-              "difference": -0.38215952420022437,
-              "percent_change": -60.51
+            "JP": {
+              "period_1": 21686.0,
+              "period_2": 7984.0,
+              "difference": -13702.0,
+              "percent_change": -63.18
             },
-            "organic": {
-              "period_1": 0.2523304901900715,
-              "period_2": 0.1156698992619008,
-              "difference": -0.13666059092817068,
-              "percent_change": -54.16
+            "IN": {
+              "period_1": 1604.0,
+              "period_2": 9921.0,
+              "difference": 8317.0,
+              "percent_change": 518.52
             },
-            "facebook_int": {
-              "period_1": 0.40916233836427107,
-              "period_2": 0.1897747281839113,
-              "difference": -0.21938761018035977,
-              "percent_change": -53.62
+            "FR": {
+              "period_1": 22980.0,
+              "period_2": 20847.0,
+              "difference": -2133.0,
+              "percent_change": -9.28
             },
-            "bingads_int": {
-              "period_1": 0.3526052603581001,
-              "period_2": 0.6837934787599544,
-              "difference": 0.33118821840185436,
-              "percent_change": 93.93
+            "US": {
+              "period_1": 348.0,
+              "period_2": 26897.0,
+              "difference": 26549.0,
+              "percent_change": 7629.02
             },
-            "twitter_int": {
-              "period_1": 0.1574785734967917,
-              "period_2": 0.12607721226142268,
-              "difference": -0.03140136123536902,
-              "percent_change": -19.94
+            "AU": {
+              "period_1": 19890.0,
+              "period_2": 2534.0,
+              "difference": -17356.0,
+              "percent_change": -87.26
+            },
+            "BR": {
+              "period_1": 15219.0,
+              "period_2": 18584.0,
+              "difference": 3365.0,
+              "percent_change": 22.11
+            },
+            "CA": {
+              "period_1": 12660.0,
+              "period_2": 9725.0,
+              "difference": -2935.0,
+              "percent_change": -23.18
+            },
+            "GB": {
+              "period_1": 4818.0,
+              "period_2": 6771.0,
+              "difference": 1953.0,
+              "percent_change": 40.54
             }
           },
           "difficulty": "hard"
@@ -1092,41 +1081,47 @@
         {
           "id": "time_comp_grouped_4",
           "category": "time_period_comparison_grouped",
-          "question": "Compare the total Conversions by Agency/PMD (af_prt) between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28.",
-          "metric_column": "Conversions",
-          "group_by_column": "Agency/PMD (af_prt)",
-          "time_period_1": "2024-01-10 to 2024-12-20",
-          "time_period_2": "2025-01-05 to 2025-12-28",
+          "question": "Compare the total Conversion Rate by Media Source (pid) between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27.",
+          "metric_column": "Conversion Rate",
+          "group_by_column": "Media Source (pid)",
+          "time_period_1": "2024-01-05 to 2024-12-28",
+          "time_period_2": "2025-01-01 to 2025-12-27",
           "expected_result": {
-            "Agency_3": {
-              "period_1": 158.0,
-              "period_2": 1.0,
-              "difference": -157.0,
-              "percent_change": -99.37
+            "bing_int": {
+              "period_1": 0.1714,
+              "period_2": 0.2897,
+              "difference": 0.11830000000000002,
+              "percent_change": 69.02
             },
-            "Agency_2": {
-              "period_1": 6.0,
-              "period_2": 16.0,
-              "difference": 10.0,
-              "percent_change": 166.67
+            "organic": {
+              "period_1": 0.1872,
+              "period_2": 0.08310000000000001,
+              "difference": -0.1041,
+              "percent_change": -55.61
             },
-            "Agency_5": {
-              "period_1": 92.0,
-              "period_2": 68.0,
-              "difference": -24.0,
-              "percent_change": -26.09
+            "applovin_int": {
+              "period_1": 0.0663,
+              "period_2": 0.13620000000000002,
+              "difference": 0.06990000000000002,
+              "percent_change": 105.43
             },
-            "Agency_1": {
-              "period_1": 122.0,
-              "period_2": 80.0,
-              "difference": -42.0,
-              "percent_change": -34.43
+            "googleadwords_int": {
+              "period_1": 0.0345,
+              "period_2": 0.1047,
+              "difference": 0.0702,
+              "percent_change": 203.48
             },
-            "Agency_4": {
-              "period_1": 40.0,
-              "period_2": 37.0,
-              "difference": -3.0,
-              "percent_change": -7.5
+            "direct": {
+              "period_1": 0.14300000000000002,
+              "period_2": 0.091,
+              "difference": -0.05200000000000002,
+              "percent_change": -36.36
+            },
+            "facebook_int": {
+              "period_1": 0.3769,
+              "period_2": 0.1078,
+              "difference": -0.2691,
+              "percent_change": -71.4
             }
           },
           "difficulty": "hard"
@@ -1134,47 +1129,53 @@
         {
           "id": "time_comp_grouped_5",
           "category": "time_period_comparison_grouped",
-          "question": "Compare the total Conversions by Campaign (c) between 2024-01-10 to 2024-12-20 and 2025-01-05 to 2025-12-28.",
-          "metric_column": "Conversions",
+          "question": "Compare the total Sessions by Campaign (c) between 2024-01-05 to 2024-12-28 and 2025-01-01 to 2025-12-27.",
+          "metric_column": "Sessions",
           "group_by_column": "Campaign (c)",
-          "time_period_1": "2024-01-10 to 2024-12-20",
-          "time_period_2": "2025-01-05 to 2025-12-28",
+          "time_period_1": "2024-01-05 to 2024-12-28",
+          "time_period_2": "2025-01-01 to 2025-12-27",
           "expected_result": {
             "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": {
-              "period_1": 153.0,
-              "period_2": 72.0,
-              "difference": -81.0,
-              "percent_change": -52.94
+              "period_1": 13022.0,
+              "period_2": 25536.0,
+              "difference": 12514.0,
+              "percent_change": 96.1
             },
-            "New Product Launch": {
-              "period_1": 71.0,
-              "period_2": 55.0,
-              "difference": -16.0,
-              "percent_change": -22.54
+            "Retargeting_Campaign_Web": {
+              "period_1": 13598.0,
+              "period_2": 8541.0,
+              "difference": -5057.0,
+              "percent_change": -37.19
+            },
+            "Brand_Campaign_Q3": {
+              "period_1": 27226.0,
+              "period_2": 17992.0,
+              "difference": -9234.0,
+              "percent_change": -33.92
+            },
+            "App_Install_Campaign_Android": {
+              "period_1": 19521.0,
+              "period_2": 29156.0,
+              "difference": 9635.0,
+              "percent_change": 49.36
+            },
+            "Generic_Campaign_Mobile": {
+              "period_1": 23836.0,
+              "period_2": 18138.0,
+              "difference": -5698.0,
+              "percent_change": -23.91
             },
             "SB_UAC_Hindi_KYC_Completed_April'24": {
-              "period_1": 27.0,
-              "period_2": 63.0,
-              "difference": 36.0,
-              "percent_change": 133.33
+              "period_1": 9813.0,
+              "period_2": 9047.0,
+              "difference": -766.0,
+              "percent_change": -7.81
             },
-            "Performance Campaign - Conversions": {
-              "period_1": 202.0,
-              "period_2": 61.0,
-              "difference": -141.0,
-              "percent_change": -69.8
-            },
-            "Summer Sale - Limited Time Offer": {
-              "period_1": 108.0,
-              "period_2": 30.0,
-              "difference": -78.0,
-              "percent_change": -72.22
-            },
-            "Brand Campaign - Awareness": {
-              "period_1": 233.0,
-              "period_2": 26.0,
-              "difference": -207.0,
-              "percent_change": -88.84
+            "Lead_Generation_Campaign": {
+              "period_1": 9175.0,
+              "period_2": 11355.0,
+              "difference": 2180.0,
+              "percent_change": 23.76
             }
           },
           "difficulty": "hard"
@@ -1183,40 +1184,10 @@
     },
     "custom_metrics": {
       "description": "Test cases for calculating and aggregating custom business metrics",
-      "count": 5,
+      "count": 4,
       "cases": [
         {
-          "id": "custom_metric_4",
-          "category": "custom_metrics",
-          "question": "Calculate the median Conversion Rate across all records. Formula: Conversions / Clicks * 100",
-          "metric_name": "Conversion Rate",
-          "metric_formula": "Conversions / Clicks * 100",
-          "metric_description": "Conversion rate percentage",
-          "aggregation_function": "median",
-          "required_columns": [
-            "Conversions",
-            "Clicks"
-          ],
-          "expected_result": 4.28,
-          "difficulty": "medium"
-        },
-        {
-          "id": "custom_metric_7",
-          "category": "custom_metrics",
-          "question": "Calculate the total Conversion Rate across all records. Formula: Conversions / Clicks * 100",
-          "metric_name": "Conversion Rate",
-          "metric_formula": "Conversions / Clicks * 100",
-          "metric_description": "Conversion rate percentage",
-          "aggregation_function": "sum",
-          "required_columns": [
-            "Conversions",
-            "Clicks"
-          ],
-          "expected_result": 399.14,
-          "difficulty": "medium"
-        },
-        {
-          "id": "custom_metric_14",
+          "id": "custom_metric_3",
           "category": "custom_metrics",
           "question": "Calculate the average Conversion Rate across all records. Formula: Conversions / Clicks * 100",
           "metric_name": "Conversion Rate",
@@ -1227,47 +1198,60 @@
             "Conversions",
             "Clicks"
           ],
-          "expected_result": 4.81,
+          "expected_result": 23.83,
+          "difficulty": "medium"
+        },
+        {
+          "id": "custom_metric_8",
+          "category": "custom_metrics",
+          "question": "Calculate the average Conversion Rate across all records. Formula: Conversions / Clicks * 100",
+          "metric_name": "Conversion Rate",
+          "metric_formula": "Conversions / Clicks * 100",
+          "metric_description": "Conversion rate percentage",
+          "aggregation_function": "mean",
+          "required_columns": [
+            "Conversions",
+            "Clicks"
+          ],
+          "expected_result": 23.83,
           "difficulty": "medium"
         },
         {
           "id": "custom_metric_15",
           "category": "custom_metrics",
-          "question": "Calculate the total Conversion Rate across all records. Formula: Conversions / Clicks * 100",
+          "question": "Calculate the average Conversion Rate across all records. Formula: Conversions / Clicks * 100",
           "metric_name": "Conversion Rate",
           "metric_formula": "Conversions / Clicks * 100",
           "metric_description": "Conversion rate percentage",
-          "aggregation_function": "sum",
+          "aggregation_function": "mean",
           "required_columns": [
             "Conversions",
             "Clicks"
           ],
-          "expected_result": 399.14,
+          "expected_result": 23.83,
           "difficulty": "medium"
         },
         {
-          "id": "custom_metric_grouped_3",
+          "id": "custom_metric_grouped_2",
           "category": "custom_metrics_grouped",
-          "question": "Calculate the average Conversion Rate by Country. Formula: Conversions / Clicks * 100",
+          "question": "Calculate the average Conversion Rate by Campaign (c). Formula: Conversions / Clicks * 100",
           "metric_name": "Conversion Rate",
           "metric_formula": "Conversions / Clicks * 100",
           "metric_description": "Conversion rate percentage",
-          "group_by_column": "Country",
+          "group_by_column": "Campaign (c)",
           "aggregation_function": "mean",
           "required_columns": [
             "Conversions",
             "Clicks"
           ],
           "expected_result": {
-            "AU": 6.0,
-            "BR": 5.04,
-            "CA": 4.65,
-            "DE": 4.13,
-            "FR": 4.35,
-            "GB": 6.49,
-            "IN": 2.17,
-            "JP": 4.38,
-            "US": 6.04
+            "App_Install_Campaign_Android": 8.75,
+            "Brand_Campaign_Q3": 10.4,
+            "Generic_Campaign_Mobile": 95.95,
+            "Lead_Generation_Campaign": 6.45,
+            "Retargeting_Campaign_Web": 12.04,
+            "SB_UAC_Hindi_KYC_Completed_April'24": 8.84,
+            "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 9.11
           },
           "difficulty": "hard"
         }

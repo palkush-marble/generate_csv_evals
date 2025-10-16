@@ -1,14 +1,14 @@
-# Appsflyer Dataset - 2500 Rows
+# Appsflyer Dataset - 25 Rows
 
-Generated on: 2025-10-16T14:16:46.165217
+Generated on: 2025-10-16T14:15:45.673743
 
 ## Structure
 
 ```
 datasets/Appsflyer/
 ├── appsflyer_sample.csv              # Original sample file
-└── 2500/
-    ├── appsflyer_synthetic_2500rows_10cols.csv       # Synthetic data (2500 rows)
+└── 25/
+    ├── appsflyer_synthetic_25rows_6cols.csv       # Synthetic data (25 rows)
     ├── eval_dataset_all.json            # All evaluation cases
     ├── eval_dataset_aggregation.json    # Data aggregation tests
     ├── eval_dataset_time_comparison.json # Time comparison tests
@@ -17,23 +17,23 @@ datasets/Appsflyer/
 
 ## Synthetic Data
 
-- **File**: `appsflyer_synthetic_2500rows_10cols.csv`
-- **Rows**: 2,500
-- **Columns**: 10
-- **File Size**: 0.27 MB
+- **File**: `appsflyer_synthetic_25rows_6cols.csv`
+- **Rows**: 25
+- **Columns**: 6
+- **File Size**: 0.00 MB
 
 ### Column Summary
-- Numeric columns: 4
-- Categorical columns: 6
+- Numeric columns: 1
+- Categorical columns: 5
 - Date columns: Date
 
 ### Date Range
-- Start: 2023-10-16
-- End: 2025-10-15
+- Start: 2023-10-23
+- End: 2025-09-17
 
 ## Evaluation Datasets
 
-Total test cases: **48**
+Total test cases: **45**
 
 ### Data Aggregation
 - Test cases: **25**
@@ -44,22 +44,22 @@ Total test cases: **48**
 - Description: Test cases for comparing metrics between different time periods
 
 ### Custom Metrics
-- Test cases: **3**
+- Test cases: **0**
 - Description: Test cases for calculating and aggregating custom business metrics
 
 ## Files Generated
 
 | File | Size | Description |
 |------|------|-------------|
-| `appsflyer_synthetic_2500rows_10cols.csv` | 0.27 MB | Synthetic data |
-| `eval_dataset_all.json` | 2056.6 KB | Combined |\n| `eval_dataset_aggregation.json` | 531.3 KB | Aggregation |\n| `eval_dataset_time_comparison.json` | 1329.7 KB | Time Comparison |\n| `eval_dataset_custom_metrics.json` | 1.9 KB | Custom Metrics |\n
+| `appsflyer_synthetic_25rows_6cols.csv` | 0.00 MB | Synthetic data |
+| `eval_dataset_all.json` | 47.7 KB | Combined |\n| `eval_dataset_aggregation.json` | 21.4 KB | Aggregation |\n| `eval_dataset_time_comparison.json` | 21.1 KB | Time Comparison |\n| `eval_dataset_custom_metrics.json` | 0.2 KB | Custom Metrics |\n
 ## Usage
 
 ### Load Synthetic Data
 ```python
 import pandas as pd
 
-df = pd.read_csv('appsflyer_synthetic_2500rows_10cols.csv')
+df = pd.read_csv('appsflyer_synthetic_25rows_6cols.csv')
 print(df.head())
 ```
 
@@ -81,7 +81,7 @@ for case in eval_data['categories']['data_aggregation']['cases']:
 # See ../../../example_eval_usage.py for complete example
 from example_eval_usage import run_evaluation
 
-run_evaluation('eval_dataset_all.json', 'appsflyer_synthetic_2500rows_10cols.csv')
+run_evaluation('eval_dataset_all.json', 'appsflyer_synthetic_25rows_6cols.csv')
 ```
 
 ## Next Steps

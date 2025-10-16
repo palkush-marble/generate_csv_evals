@@ -1,0 +1,51 @@
+Date,Country,Agency/PMD (af_prt),Media Source (pid),Campaign (c),Clicks,Conversions,Conversion Type
+2025-07-06,DE,Agency_3,facebook_int,Summer Sale 2024,,40,purchase
+2024-01-13,MX,Agency_8,other,Black Friday Deals,192.0,24,purchase
+2024-08-10,AU,,criteo_int,New Year's Offer,785.0,86,re-attribution
+2025-11-24,GB,Agency_10,googleadwords_int,Summer Sale 2024,993.0,53,install
+2025-10-08,JP,Agency_3,criteo_int,SB_UAC_Hindi_KYC_Completed_April'24,649.0,75,lead
+2024-05-12,AU,Agency_2,googleadwords_int,Back to School Campaign,93.0,26,install
+2024-07-18,MX,Agency_10,other,New Year's Offer,784.0,2,lead
+2025-10-09,MX,Agency_5,facebook_int,Back to School Campaign,152.0,67,lead
+2025-12-25,MX,Agency_5,criteo_int,Black Friday Deals,590.0,50,lead
+2024-07-15,IN,Agency_2,other,SB_UAC_Hindi_KYC_Completed_April'24,268.0,98,install
+2025-01-27,CA,Agency_3,facebook_int,Summer Sale 2024,,27,lead
+2024-11-17,US,Agency_6,facebook_int,Holiday Season Promotion,214.0,35,re-attribution
+2025-06-19,IN,Agency_5,other,Black Friday Deals,978.0,92,re-attribution
+2025-04-04,US,Agency_1,googleadwords_int,SB_UAC_Hindi_KYC_Completed_April'24,72.0,71,re-attribution
+2024-08-04,US,,facebook_int,Holiday Season Promotion,271.0,36,purchase
+2024-02-20,DE,Agency_2,googleadwords_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,540.0,20,install
+2024-12-12,AU,,facebook_int,New Year's Offer,41.0,26,re-attribution
+2025-05-06,MX,Agency_4,criteo_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,781.0,83,re-attribution
+2025-10-23,FR,Agency_2,criteo_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,657.0,88,re-attribution
+2024-01-18,FR,Agency_2,facebook_int,Summer Sale 2024,215.0,84,re-attribution
+2025-05-14,IN,,other,Summer Sale 2024,953.0,25,purchase
+2024-11-02,BR,Agency_2,googleadwords_int,Holiday Season Promotion,606.0,70,re-attribution
+2024-05-26,US,Agency_3,direct,SB_UAC_Hindi_KYC_Completed_April'24,735.0,74,install
+2025-12-10,IN,Agency_3,other,Summer Sale 2024,276.0,29,re-attribution
+2025-05-02,AU,,googleadwords_int,New Year's Offer,651.0,76,install
+2025-11-06,MX,Agency_5,other,Cyber Monday Savings,566.0,78,install
+2024-01-16,JP,Agency_5,organic,Holiday Season Promotion,740.0,52,purchase
+2024-10-13,DE,Agency_1,direct,Summer Sale 2024,,27,purchase
+2024-07-12,BR,Agency_2,googleadwords_int,Black Friday Deals,139.0,87,install
+2025-09-08,AU,Agency_6,criteo_int,Back to School Campaign,594.0,9,purchase
+2024-06-09,US,Agency_1,facebook_int,Summer Sale 2024,446.0,2,lead
+2025-05-20,MX,Agency_5,direct,Black Friday Deals,883.0,36,lead
+2024-08-15,FR,Agency_1,facebook_int,Cyber Monday Savings,529.0,47,lead
+2024-04-16,FR,Agency_3,direct,Cyber Monday Savings,742.0,50,re-attribution
+2025-11-21,IN,Agency_5,direct,New Year's Offer,721.0,35,lead
+2024-12-01,DE,Agency_3,direct,SB_UAC_Hindi_KYC_Completed_April'24,295.0,76,re-attribution
+2024-08-15,BR,,organic,Black Friday Deals,584.0,5,lead
+2024-07-09,US,Agency_5,facebook_int,Summer Sale 2024,834.0,53,lead
+2025-11-28,US,Agency_9,other,Back to School Campaign,177.0,70,re-attribution
+2024-04-19,GB,,other,Back to School Campaign,828.0,32,install
+2024-03-02,AU,Agency_6,googleadwords_int,New Year's Offer,487.0,70,re-attribution
+2024-08-31,DE,Agency_3,googleadwords_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,,31,purchase
+2024-07-08,CA,,other,Black Friday Deals,,91,install
+2024-07-10,CA,Agency_9,criteo_int,Summer Sale 2024,921.0,90,lead
+2025-09-23,IN,Agency_6,googleadwords_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,301.0,89,re-attribution
+2025-04-25,DE,Agency_6,direct,Summer Sale 2024,,49,lead
+2024-04-04,BR,Agency_8,googleadwords_int,New Year's Offer,669.0,49,install
+2024-05-11,BR,,googleadwords_int,Summer Sale 2024,895.0,14,lead
+2024-03-22,CA,Agency_7,direct,Cyber Monday Savings,586.0,47,re-attribution
+2024-02-20,JP,Agency_10,facebook_int,Black Friday Deals,295.0,22,purchase

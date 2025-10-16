@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "generated_at": "2025-10-16T14:13:31.025617",
+    "generated_at": "2025-10-16T14:13:21.244920",
     "source_data": "synthetic marketing data",
-    "total_cases": 49
+    "total_cases": 50
   },
   "cases": [
     {
       "id": "custom_metric_3",
       "category": "custom_metrics",
-      "question": "Calculate the average Conversion Rate across all records. Formula: Conversions / Clicks * 100",
+      "question": "Calculate the median Conversion Rate across all records. Formula: Conversions / Clicks * 100",
       "metric_name": "Conversion Rate",
       "metric_formula": "Conversions / Clicks * 100",
       "metric_description": "Conversion rate percentage",
-      "aggregation_function": "mean",
+      "aggregation_function": "median",
       "required_columns": [
         "Conversions",
         "Clicks"
       ],
-      "expected_result": 23.83,
+      "expected_result": 10.29,
       "difficulty": "medium"
     },
     {
-      "id": "custom_metric_8",
+      "id": "custom_metric_7",
       "category": "custom_metrics",
       "question": "Calculate the average Conversion Rate across all records. Formula: Conversions / Clicks * 100",
       "metric_name": "Conversion Rate",
@@ -32,22 +32,22 @@
         "Conversions",
         "Clicks"
       ],
-      "expected_result": 23.83,
+      "expected_result": 16.74,
       "difficulty": "medium"
     },
     {
-      "id": "custom_metric_15",
+      "id": "custom_metric_14",
       "category": "custom_metrics",
-      "question": "Calculate the average Conversion Rate across all records. Formula: Conversions / Clicks * 100",
+      "question": "Calculate the median Conversion Rate across all records. Formula: Conversions / Clicks * 100",
       "metric_name": "Conversion Rate",
       "metric_formula": "Conversions / Clicks * 100",
       "metric_description": "Conversion rate percentage",
-      "aggregation_function": "mean",
+      "aggregation_function": "median",
       "required_columns": [
         "Conversions",
         "Clicks"
       ],
-      "expected_result": 23.83,
+      "expected_result": 10.29,
       "difficulty": "medium"
     },
     {
@@ -64,13 +64,41 @@
         "Clicks"
       ],
       "expected_result": {
-        "App_Install_Campaign_Android": 8.75,
-        "Brand_Campaign_Q3": 10.4,
-        "Generic_Campaign_Mobile": 95.95,
-        "Lead_Generation_Campaign": 6.45,
-        "Retargeting_Campaign_Web": 12.04,
-        "SB_UAC_Hindi_KYC_Completed_April'24": 8.84,
-        "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 9.11
+        "Back to School Campaign": 23.39,
+        "Black Friday Deals": 15.05,
+        "Cyber Monday Savings": 9.36,
+        "Holiday Season Promotion": 12.05,
+        "New Year's Offer": 16.12,
+        "SB_UAC_Hindi_KYC_Completed_April'24": 36.51,
+        "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": 14.32,
+        "Summer Sale 2024": 9.46
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "custom_metric_grouped_5",
+      "category": "custom_metrics_grouped",
+      "question": "Calculate the average Conversion Rate by Country. Formula: Conversions / Clicks * 100",
+      "metric_name": "Conversion Rate",
+      "metric_formula": "Conversions / Clicks * 100",
+      "metric_description": "Conversion rate percentage",
+      "group_by_column": "Country",
+      "aggregation_function": "mean",
+      "required_columns": [
+        "Conversions",
+        "Clicks"
+      ],
+      "expected_result": {
+        "AU": 21.65,
+        "BR": 16.78,
+        "CA": 8.9,
+        "DE": 14.73,
+        "FR": 17.02,
+        "GB": 4.6,
+        "IN": 15.59,
+        "JP": 8.68,
+        "MX": 13.4,
+        "US": 26.38
       },
       "difficulty": "hard"
     }

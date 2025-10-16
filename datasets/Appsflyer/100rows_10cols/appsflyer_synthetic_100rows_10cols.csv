@@ -1,101 +1,101 @@
 Date,Country,Agency/PMD (af_prt),Media Source (pid),Campaign (c),Clicks,Conversions,Conversion Type,Conversion Rate,Sessions
-2024-06-20,GB,,facebook_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,,3,re-attribution,,428
-2025-05-16,US,,bingads_int,Performance Campaign - Conversions,378.0,28,attribution,0.07407407407407407,615
-2024-01-14,CA,,facebook_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,970.0,89,view-through,0.09175257731958762,974
-2025-01-24,JP,Agency_5,bingads_int,New Product Launch,96.0,5,re-attribution,0.052083333333333336,263
-2025-05-14,JP,Agency_1,googleadwords_int,SB_UAC_Hindi_KYC_Completed_April'24,26.0,0,attribution,0.0,679
-2025-09-10,BR,Agency_1,organic,Performance Campaign - Conversions,,2,attribution,,495
-2025-03-24,JP,Agency_5,organic,New Product Launch,244.0,2,re-attribution,0.00819672131147541,251
-2024-02-29,BR,,organic,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,121.0,1,view-through,0.008264462809917356,408
-2024-07-22,FR,,direct,Summer Sale - Limited Time Offer,112.0,8,re-attribution,0.07142857142857142,456
-2025-12-04,AU,Agency_2,bingads_int,Performance Campaign - Conversions,293.0,12,view-through,0.040955631399317405,807
-2025-08-25,AU,Agency_2,direct,SB_UAC_Hindi_KYC_Completed_April'24,34.0,0,attribution,0.0,519
-2024-01-17,FR,Agency_5,facebook_int,Performance Campaign - Conversions,417.0,38,re-attribution,0.09112709832134293,960
-2025-08-09,AU,Agency_4,organic,Performance Campaign - Conversions,102.0,10,view-through,0.09803921568627451,396
-2025-07-22,JP,Agency_1,bingads_int,New Product Launch,334.0,29,re-attribution,0.08682634730538923,818
-2024-09-29,DE,Agency_3,bingads_int,New Product Launch,257.0,10,re-attribution,0.038910505836575876,327
-2024-09-09,IN,,facebook_int,New Product Launch,88.0,2,view-through,0.022727272727272728,966
-2025-03-27,US,,bingads_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,123.0,12,re-attribution,0.0975609756097561,479
-2024-07-26,FR,,bingads_int,SB_UAC_Hindi_KYC_Completed_April'24,274.0,19,attribution,0.06934306569343066,353
-2024-02-19,US,Agency_1,googleadwords_int,New Product Launch,428.0,31,attribution,0.07242990654205607,883
-2025-08-24,CA,Agency_4,facebook_int,Brand Campaign - Awareness,440.0,14,view-through,0.031818181818181815,630
-2024-01-10,FR,,direct,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,95.0,2,re-attribution,0.021052631578947368,119
-2024-06-18,CA,,bingads_int,Summer Sale - Limited Time Offer,839.0,68,attribution,0.08104886769964244,846
-2024-07-05,US,,direct,Brand Campaign - Awareness,538.0,45,attribution,0.08364312267657993,593
-2025-08-20,GB,Agency_5,googleadwords_int,Performance Campaign - Conversions,13.0,0,view-through,0.0,150
-2024-12-03,JP,Agency_3,facebook_int,Brand Campaign - Awareness,21.0,2,re-attribution,0.09523809523809523,319
-2024-09-16,GB,,googleadwords_int,New Product Launch,64.0,5,re-attribution,0.078125,330
-2024-06-14,AU,,googleadwords_int,Performance Campaign - Conversions,110.0,11,attribution,0.1,124
-2025-12-11,IN,Agency_1,bingads_int,Summer Sale - Limited Time Offer,39.0,0,view-through,0.0,743
-2024-10-26,DE,Agency_4,organic,Summer Sale - Limited Time Offer,176.0,17,attribution,0.09659090909090909,256
-2025-12-28,FR,Agency_1,bingads_int,SB_UAC_Hindi_KYC_Completed_April'24,43.0,3,re-attribution,0.06976744186046512,329
-2024-12-08,IN,Agency_1,direct,Performance Campaign - Conversions,781.0,73,re-attribution,0.09346991037131883,914
-2024-05-20,GB,,twitter_int,SB_UAC_Hindi_KYC_Completed_April'24,,3,view-through,,529
-2025-10-31,IN,,direct,Performance Campaign - Conversions,,4,view-through,,256
-2024-02-23,IN,,direct,New Product Launch,329.0,10,attribution,0.030395136778115502,888
-2025-01-16,DE,Agency_4,googleadwords_int,Summer Sale - Limited Time Offer,205.0,8,re-attribution,0.03902439024390244,331
-2024-12-17,JP,,bingads_int,Brand Campaign - Awareness,160.0,5,view-through,0.03125,313
-2024-05-23,GB,Agency_1,googleadwords_int,Brand Campaign - Awareness,198.0,15,view-through,0.07575757575757576,671
-2024-01-31,GB,Agency_2,facebook_int,New Product Launch,,0,view-through,,551
-2025-06-30,AU,,facebook_int,Brand Campaign - Awareness,69.0,2,view-through,0.028985507246376812,99
-2024-01-31,BR,Agency_5,direct,Performance Campaign - Conversions,,0,attribution,,348
-2024-03-21,US,Agency_3,facebook_int,New Product Launch,,5,re-attribution,,366
-2025-02-11,AU,Agency_1,twitter_int,Performance Campaign - Conversions,112.0,5,attribution,0.044642857142857144,371
-2025-08-20,US,Agency_4,direct,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,20.0,2,re-attribution,0.1,448
-2024-01-23,DE,,facebook_int,Performance Campaign - Conversions,20.0,0,view-through,0.0,118
-2024-02-20,CA,Agency_4,twitter_int,Performance Campaign - Conversions,405.0,23,attribution,0.056790123456790124,556
-2025-06-01,DE,,bingads_int,SB_UAC_Hindi_KYC_Completed_April'24,,5,re-attribution,,606
-2024-06-01,FR,Agency_2,googleadwords_int,Summer Sale - Limited Time Offer,30.0,2,re-attribution,0.06666666666666667,133
-2025-10-14,US,,googleadwords_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,148.0,5,view-through,0.033783783783783786,991
-2025-02-19,BR,Agency_5,direct,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,241.0,12,re-attribution,0.04979253112033195,294
-2024-09-20,GB,,bingads_int,Performance Campaign - Conversions,,4,view-through,,402
-2024-10-28,FR,Agency_2,twitter_int,Performance Campaign - Conversions,187.0,3,attribution,0.016042780748663103,738
-2024-10-20,JP,Agency_3,googleadwords_int,New Product Launch,137.0,5,view-through,0.0364963503649635,201
-2024-07-13,AU,,direct,Brand Campaign - Awareness,,1,attribution,,752
-2025-04-09,CA,Agency_2,twitter_int,Brand Campaign - Awareness,665.0,3,re-attribution,0.004511278195488722,873
-2024-08-03,GB,,facebook_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,182.0,18,re-attribution,0.0989010989010989,345
-2024-10-26,BR,,googleadwords_int,New Product Launch,,0,re-attribution,,351
-2025-08-07,AU,Agency_3,direct,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,11.0,1,attribution,0.09090909090909091,946
-2024-07-10,AU,Agency_3,direct,Brand Campaign - Awareness,974.0,84,attribution,0.08624229979466119,981
-2025-09-14,AU,,googleadwords_int,Summer Sale - Limited Time Offer,,4,view-through,,650
-2024-05-23,BR,Agency_5,googleadwords_int,Performance Campaign - Conversions,440.0,41,re-attribution,0.09318181818181819,507
-2024-03-27,GB,,twitter_int,Brand Campaign - Awareness,508.0,43,attribution,0.08464566929133858,536
-2025-06-01,IN,Agency_1,bingads_int,Summer Sale - Limited Time Offer,827.0,10,view-through,0.012091898428053204,904
-2024-10-16,DE,,organic,Performance Campaign - Conversions,385.0,8,attribution,0.02077922077922078,772
-2024-11-12,IN,Agency_3,organic,Brand Campaign - Awareness,565.0,5,re-attribution,0.008849557522123894,806
-2024-07-28,IN,Agency_5,googleadwords_int,SB_UAC_Hindi_KYC_Completed_April'24,165.0,3,view-through,0.01818181818181818,303
-2025-08-14,CA,Agency_4,googleadwords_int,New Product Launch,,1,attribution,,613
-2024-10-23,AU,Agency_3,bingads_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,153.0,15,re-attribution,0.09803921568627451,165
-2024-01-13,US,Agency_5,googleadwords_int,SB_UAC_Hindi_KYC_Completed_April'24,,2,view-through,,642
-2025-04-12,JP,,direct,SB_UAC_Hindi_KYC_Completed_April'24,18.0,0,attribution,0.0,572
-2025-07-22,FR,,organic,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,51.0,0,re-attribution,0.0,73
-2024-10-25,CA,Agency_3,organic,Summer Sale - Limited Time Offer,228.0,8,re-attribution,0.03508771929824561,778
-2025-01-31,GB,,facebook_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,352.0,12,view-through,0.03409090909090909,483
-2024-12-20,GB,Agency_3,organic,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,290.0,24,attribution,0.08275862068965517,633
-2024-09-03,GB,,facebook_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,,1,re-attribution,,797
-2025-05-25,US,,bingads_int,SB_UAC_Hindi_KYC_Completed_April'24,135.0,5,view-through,0.037037037037037035,314
-2025-05-31,JP,Agency_5,facebook_int,SB_UAC_Hindi_KYC_Completed_April'24,214.0,11,re-attribution,0.0514018691588785,895
-2025-05-09,FR,,bingads_int,Summer Sale - Limited Time Offer,42.0,4,view-through,0.09523809523809523,512
-2024-04-15,CA,,bingads_int,Brand Campaign - Awareness,147.0,5,re-attribution,0.034013605442176874,331
-2025-03-17,US,Agency_4,facebook_int,Summer Sale - Limited Time Offer,,2,attribution,,948
-2025-02-07,FR,,direct,New Product Launch,1.0,0,view-through,0.0,394
-2025-06-12,AU,Agency_1,bingads_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,351.0,23,view-through,0.06552706552706553,483
-2025-06-25,CA,,direct,New Product Launch,388.0,16,view-through,0.041237113402061855,904
-2025-09-03,DE,Agency_1,googleadwords_int,Brand Campaign - Awareness,134.0,7,view-through,0.05223880597014925,594
-2025-07-26,CA,Agency_1,googleadwords_int,New Product Launch,10.0,1,attribution,0.1,111
-2025-05-20,US,,organic,SB_UAC_Hindi_KYC_Completed_April'24,106.0,1,attribution,0.009433962264150943,627
-2025-08-23,JP,,twitter_int,Summer Sale - Limited Time Offer,0.0,0,attribution,,664
-2024-01-13,IN,,facebook_int,Summer Sale - Limited Time Offer,531.0,5,attribution,0.009416195856873822,714
-2024-01-14,AU,,googleadwords_int,Brand Campaign - Awareness,237.0,20,re-attribution,0.08438818565400844,929
-2024-11-30,AU,Agency_5,direct,Brand Campaign - Awareness,187.0,8,re-attribution,0.0427807486631016,343
-2025-02-09,FR,Agency_2,googleadwords_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,41.0,1,re-attribution,0.024390243902439025,784
-2025-11-13,JP,Agency_5,direct,SB_UAC_Hindi_KYC_Completed_April'24,495.0,38,attribution,0.07676767676767676,712
-2024-12-08,CA,Agency_5,facebook_int,Brand Campaign - Awareness,258.0,0,re-attribution,0.0,815
-2024-11-30,CA,Agency_1,direct,New Product Launch,84.0,3,re-attribution,0.03571428571428571,123
-2025-02-16,FR,,twitter_int,New Product Launch,13.0,1,attribution,0.07692307692307693,90
-2025-08-09,FR,,direct,Brand Campaign - Awareness,23.0,0,view-through,0.0,257
-2024-11-21,FR,Agency_2,googleadwords_int,Performance Campaign - Conversions,157.0,1,view-through,0.006369426751592357,413
-2025-01-15,US,,facebook_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,92.0,4,attribution,0.043478260869565216,147
-2024-04-05,AU,,bingads_int,SB_UAC_Hindi_KYC_Completed_April'24,145.0,0,view-through,0.0,183
-2025-01-05,IN,Agency_3,bingads_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,128.0,0,attribution,0.0,642
-2025-10-15,US,,bingads_int,Summer Sale - Limited Time Offer,38.0,2,attribution,0.05263157894736842,827
+2025-05-02,FR,,facebook_int,Generic_Campaign_Mobile,,46,install,0.0102,4522
+2024-03-23,CA,Agency_3,bing_int,Generic_Campaign_Mobile,698.0,16,install,0.0046,3502
+2025-06-05,US,,direct,App_Install_Campaign_Android,305.0,36,purchase,0.0083,4352
+2024-12-03,BR,Agency_3,direct,Brand_Campaign_Q3,289.0,28,re-attribution,0.0135,2070
+2024-04-01,CA,Agency_2,organic,Brand_Campaign_Q3,,7,lead,,3161
+2024-07-05,DE,,organic,SB_UAC_Hindi_KYC_Completed_April'24,543.0,36,purchase,0.0146,2460
+2024-07-20,JP,,applovin_int,Brand_Campaign_Q3,662.0,13,install,,2956
+2025-10-17,IN,,applovin_int,Generic_Campaign_Mobile,966.0,1,install,0.0002,4217
+2025-10-10,GB,,facebook_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,125.0,2,re-attribution,,717
+2024-09-27,CA,,organic,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,,26,purchase,0.069,377
+2024-05-01,IN,,direct,Brand_Campaign_Q3,283.0,33,sign_up,0.0359,918
+2024-06-17,BR,,bing_int,App_Install_Campaign_Android,453.0,44,lead,0.0249,1764
+2024-10-17,DE,,organic,Generic_Campaign_Mobile,88.0,30,install,0.0084,3592
+2025-03-09,CA,,applovin_int,Lead_Generation_Campaign,591.0,17,sign_up,0.0076,2225
+2025-11-01,IN,,direct,App_Install_Campaign_Android,910.0,50,purchase,,4564
+2025-01-02,US,Agency_3,bing_int,Retargeting_Campaign_Web,203.0,47,lead,,1375
+2025-07-24,FR,Agency_2,applovin_int,App_Install_Campaign_Android,554.0,28,lead,,4991
+2024-08-08,CA,Agency_5,applovin_int,Retargeting_Campaign_Web,104.0,33,install,0.0201,1640
+2025-05-22,GB,,bing_int,Generic_Campaign_Mobile,,37,install,0.0189,1953
+2024-01-05,JP,,direct,SB_UAC_Hindi_KYC_Completed_April'24,622.0,13,install,0.0106,1225
+2025-08-08,JP,,facebook_int,Lead_Generation_Campaign,895.0,25,lead,,82
+2024-04-02,FR,Agency_3,organic,App_Install_Campaign_Android,,13,re-attribution,0.0031,4235
+2025-01-01,JP,,bing_int,Retargeting_Campaign_Web,486.0,31,lead,0.0575,539
+2025-03-17,US,Agency_4,direct,Lead_Generation_Campaign,571.0,6,re-attribution,,1365
+2024-05-30,CA,,organic,App_Install_Campaign_Android,620.0,48,lead,0.0226,2126
+2025-07-26,US,,googleadwords_int,App_Install_Campaign_Android,223.0,40,sign_up,0.0084,4769
+2025-11-20,AU,,direct,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,237.0,3,sign_up,0.0017,1756
+2024-02-07,FR,,facebook_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,435.0,1,re-attribution,0.0003,2881
+2024-06-06,FR,Agency_3,bing_int,Generic_Campaign_Mobile,817.0,0,sign_up,,2979
+2025-02-07,JP,,direct,App_Install_Campaign_Android,406.0,29,re-attribution,0.0271,1071
+2025-12-13,IN,Agency_1,direct,Brand_Campaign_Q3,583.0,33,purchase,,1140
+2025-11-21,JP,,googleadwords_int,Lead_Generation_Campaign,,13,install,,1139
+2024-10-06,JP,,organic,Retargeting_Campaign_Web,657.0,43,install,0.028,1535
+2025-03-06,FR,Agency_4,bing_int,Lead_Generation_Campaign,261.0,35,purchase,0.0359,976
+2024-12-20,GB,Agency_1,bing_int,Lead_Generation_Campaign,,22,sign_up,0.0048,4630
+2025-03-13,BR,,applovin_int,Generic_Campaign_Mobile,382.0,32,re-attribution,0.0066,4824
+2024-07-19,AU,,bing_int,Lead_Generation_Campaign,598.0,45,purchase,0.0108,4150
+2024-09-05,JP,Agency_1,organic,Brand_Campaign_Q3,153.0,14,re-attribution,0.0266,526
+2024-07-01,FR,,organic,Generic_Campaign_Mobile,26.0,43,sign_up,,3037
+2025-04-13,GB,,bing_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,,36,purchase,0.0088,4101
+2024-04-01,BR,,facebook_int,App_Install_Campaign_Android,716.0,2,sign_up,0.0008,2533
+2024-03-12,AU,,direct,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,129.0,42,sign_up,0.0153,2744
+2025-12-15,US,,bing_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,955.0,6,re-attribution,,3882
+2024-10-11,JP,,direct,App_Install_Campaign_Android,439.0,31,re-attribution,0.0098,3174
+2024-08-18,CA,,bing_int,Brand_Campaign_Q3,108.0,47,lead,0.0254,1854
+2025-04-18,JP,,googleadwords_int,Retargeting_Campaign_Web,,13,re-attribution,,2224
+2025-11-18,BR,,direct,Brand_Campaign_Q3,682.0,7,install,,4607
+2024-03-27,IN,Agency_3,direct,Brand_Campaign_Q3,717.0,20,purchase,,686
+2024-07-04,JP,Agency_4,bing_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,616.0,48,install,,3357
+2025-11-27,JP,Agency_1,direct,Lead_Generation_Campaign,456.0,28,purchase,0.0125,2237
+2024-12-06,FR,,direct,SB_UAC_Hindi_KYC_Completed_April'24,361.0,1,purchase,0.0005,1835
+2025-12-27,US,,googleadwords_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,,31,re-attribution,0.0132,2348
+2025-02-25,CA,,facebook_int,App_Install_Campaign_Android,,32,re-attribution,0.0664,482
+2025-01-20,FR,Agency_4,googleadwords_int,Lead_Generation_Campaign,,5,purchase,0.0073,687
+2024-12-14,AU,,bing_int,Generic_Campaign_Mobile,328.0,13,install,,3644
+2024-02-25,AU,,facebook_int,Retargeting_Campaign_Web,346.0,30,install,0.0435,689
+2025-10-18,DE,,facebook_int,SB_UAC_Hindi_KYC_Completed_April'24,84.0,17,lead,0.0312,545
+2024-09-19,AU,Agency_3,facebook_int,Brand_Campaign_Q3,241.0,42,re-attribution,0.0623,674
+2025-06-02,BR,,applovin_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,194.0,33,lead,0.1107,298
+2024-11-01,DE,,bing_int,Brand_Campaign_Q3,,41,sign_up,0.0566,725
+2024-01-12,FR,,facebook_int,Brand_Campaign_Q3,124.0,8,sign_up,0.004,2021
+2024-05-18,FR,Agency_2,googleadwords_int,App_Install_Campaign_Android,180.0,42,lead,0.0345,1217
+2024-05-07,JP,,bing_int,Brand_Campaign_Q3,,36,install,,2830
+2025-07-03,FR,,googleadwords_int,App_Install_Campaign_Android,811.0,35,purchase,0.0244,1433
+2025-12-18,CA,Agency_5,organic,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,173.0,46,sign_up,0.0311,1478
+2024-02-05,BR,,direct,Retargeting_Campaign_Web,774.0,42,re-attribution,0.0111,3789
+2024-04-06,AU,Agency_4,direct,Retargeting_Campaign_Web,855.0,44,lead,0.0292,1506
+2024-08-24,JP,,direct,App_Install_Campaign_Android,,46,sign_up,0.0103,4472
+2025-11-24,DE,Agency_1,googleadwords_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,,50,install,0.022,2271
+2025-07-04,DE,,direct,SB_UAC_Hindi_KYC_Completed_April'24,237.0,31,install,0.0087,3554
+2024-12-25,AU,Agency_3,applovin_int,Retargeting_Campaign_Web,320.0,33,sign_up,0.0074,4439
+2025-03-22,US,,organic,SB_UAC_Hindi_KYC_Completed_April'24,734.0,18,sign_up,,4256
+2025-12-13,CA,,applovin_int,Brand_Campaign_Q3,582.0,39,lead,0.0102,3837
+2025-03-01,US,Agency_2,googleadwords_int,Retargeting_Campaign_Web,243.0,17,install,0.0084,2018
+2024-09-01,AU,,direct,Brand_Campaign_Q3,606.0,14,purchase,0.0068,2044
+2024-12-28,FR,,applovin_int,Brand_Campaign_Q3,,42,install,0.0096,4380
+2025-12-17,DE,,bing_int,Generic_Campaign_Mobile,163.0,12,install,0.0474,253
+2025-08-04,FR,Agency_4,organic,Brand_Campaign_Q3,,30,lead,0.0072,4169
+2024-12-17,BR,,bing_int,Brand_Campaign_Q3,411.0,14,lead,0.0114,1228
+2025-10-25,BR,,bing_int,Brand_Campaign_Q3,67.0,16,install,0.0038,4239
+2025-08-27,FR,,facebook_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,704.0,50,sign_up,,2860
+2025-02-22,US,,bing_int,Lead_Generation_Campaign,275.0,45,sign_up,0.0241,1866
+2024-11-23,US,Agency_3,bing_int,Generic_Campaign_Mobile,136.0,12,install,,348
+2025-12-01,US,,bing_int,Generic_Campaign_Mobile,853.0,30,re-attribution,0.045,666
+2024-11-24,DE,,organic,Generic_Campaign_Mobile,464.0,18,purchase,0.0082,2205
+2024-01-06,BR,,applovin_int,Brand_Campaign_Q3,,33,re-attribution,,1153
+2025-09-27,BR,,applovin_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,465.0,1,install,0.0002,4616
+2024-06-08,BR,,organic,SB_UAC_Hindi_KYC_Completed_April'24,268.0,18,purchase,0.0067,2682
+2025-08-20,DE,,bing_int,App_Install_Campaign_Android,255.0,35,re-attribution,0.0078,4485
+2024-05-14,DE,,direct,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,462.0,42,install,,3663
+2024-08-17,DE,,bing_int,Generic_Campaign_Mobile,,8,install,,4341
+2024-01-07,GB,Agency_2,facebook_int,Generic_Campaign_Mobile,5.0,50,purchase,0.266,188
+2025-12-04,DE,,googleadwords_int,Retargeting_Campaign_Web,311.0,50,install,0.021,2385
+2024-03-03,FR,Agency_1,bing_int,Lead_Generation_Campaign,,13,re-attribution,0.0329,395
+2024-07-01,JP,,applovin_int,SB_UAC_Hindi_KYC_Completed_April'24,244.0,47,re-attribution,0.0292,1611
+2025-03-08,DE,,applovin_int,App_Install_Campaign_Android,962.0,2,purchase,0.0007,3009
+2025-04-28,CA,,direct,Generic_Campaign_Mobile,376.0,36,purchase,0.0211,1703
+2025-03-11,FR,,bing_int,SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22,946.0,49,lead,0.0405,1209
+2025-12-15,AU,,direct,Lead_Generation_Campaign,630.0,9,sign_up,0.0116,778
+2025-06-18,JP,,organic,SB_UAC_Hindi_KYC_Completed_April'24,,31,purchase,0.0448,692

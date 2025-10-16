@@ -1,0 +1,666 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-16T14:13:21.244920",
+    "source_data": "synthetic marketing data",
+    "total_cases": 50
+  },
+  "cases": [
+    {
+      "id": "time_comp_1",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_2",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_3",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_4",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 1426.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 1142.0
+      },
+      "expected_result": {
+        "period_1_value": 1426.0,
+        "period_2_value": 1142.0,
+        "absolute_difference": -284.0,
+        "percent_change": -19.92
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_5",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_6",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 1426.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 1142.0
+      },
+      "expected_result": {
+        "period_1_value": 1426.0,
+        "period_2_value": 1142.0,
+        "absolute_difference": -284.0,
+        "percent_change": -19.92
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_7",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_8",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_9",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_10",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_11",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_12",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_13",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_14",
+      "category": "time_period_comparison",
+      "question": "Compare the total Conversions between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Conversions",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 1426.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 1142.0
+      },
+      "expected_result": {
+        "period_1_value": 1426.0,
+        "period_2_value": 1142.0,
+        "absolute_difference": -284.0,
+        "percent_change": -19.92
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_15",
+      "category": "time_period_comparison",
+      "question": "Compare the total Clicks between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25. What is the difference?",
+      "metric_column": "Clicks",
+      "time_period_1": {
+        "start": "2024-01-13",
+        "end": "2024-12-12",
+        "value": 13734.0
+      },
+      "time_period_2": {
+        "start": "2025-01-27",
+        "end": "2025-12-25",
+        "value": 9994.0
+      },
+      "expected_result": {
+        "period_1_value": 13734.0,
+        "period_2_value": 9994.0,
+        "absolute_difference": -3740.0,
+        "percent_change": -27.23
+      },
+      "difficulty": "medium"
+    },
+    {
+      "id": "time_comp_grouped_1",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Conversions by Agency/PMD (af_prt) between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25.",
+      "metric_column": "Conversions",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "time_period_1": "2024-01-13 to 2024-12-12",
+      "time_period_2": "2025-01-27 to 2025-12-25",
+      "expected_result": {
+        "Agency_7": {
+          "period_1": 47.0,
+          "period_2": 0.0,
+          "difference": -47.0,
+          "percent_change": -100.0
+        },
+        "Agency_9": {
+          "period_1": 90.0,
+          "period_2": 70.0,
+          "difference": -20.0,
+          "percent_change": -22.22
+        },
+        "Agency_2": {
+          "period_1": 385.0,
+          "period_2": 88.0,
+          "difference": -297.0,
+          "percent_change": -77.14
+        },
+        "Agency_1": {
+          "period_1": 76.0,
+          "period_2": 71.0,
+          "difference": -5.0,
+          "percent_change": -6.58
+        },
+        "Agency_3": {
+          "period_1": 231.0,
+          "period_2": 171.0,
+          "difference": -60.0,
+          "percent_change": -25.97
+        },
+        "Agency_4": {
+          "period_1": 0.0,
+          "period_2": 83.0,
+          "difference": 83.0,
+          "percent_change": null
+        },
+        "Agency_10": {
+          "period_1": 24.0,
+          "period_2": 53.0,
+          "difference": 29.0,
+          "percent_change": 120.83
+        },
+        "Agency_8": {
+          "period_1": 73.0,
+          "period_2": 0.0,
+          "difference": -73.0,
+          "percent_change": -100.0
+        },
+        "Agency_6": {
+          "period_1": 105.0,
+          "period_2": 147.0,
+          "difference": 42.0,
+          "percent_change": 40.0
+        },
+        "Agency_5": {
+          "period_1": 105.0,
+          "period_2": 358.0,
+          "difference": 253.0,
+          "percent_change": 240.95
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_2",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Clicks by Campaign (c) between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25.",
+      "metric_column": "Clicks",
+      "group_by_column": "Campaign (c)",
+      "time_period_1": "2024-01-13 to 2024-12-12",
+      "time_period_2": "2025-01-27 to 2025-12-25",
+      "expected_result": {
+        "Back to School Campaign": {
+          "period_1": 921.0,
+          "period_2": 923.0,
+          "difference": 2.0,
+          "percent_change": 0.22
+        },
+        "New Year's Offer": {
+          "period_1": 2766.0,
+          "period_2": 1372.0,
+          "difference": -1394.0,
+          "percent_change": -50.4
+        },
+        "Summer Sale 2024": {
+          "period_1": 3311.0,
+          "period_2": 2222.0,
+          "difference": -1089.0,
+          "percent_change": -32.89
+        },
+        "Cyber Monday Savings": {
+          "period_1": 1857.0,
+          "period_2": 566.0,
+          "difference": -1291.0,
+          "percent_change": -69.52
+        },
+        "SB_UAC_Hindi_KYC_NonFos_Firebase_Nov'22": {
+          "period_1": 540.0,
+          "period_2": 1739.0,
+          "difference": 1199.0,
+          "percent_change": 222.04
+        },
+        "Black Friday Deals": {
+          "period_1": 1210.0,
+          "period_2": 2451.0,
+          "difference": 1241.0,
+          "percent_change": 102.56
+        },
+        "SB_UAC_Hindi_KYC_Completed_April'24": {
+          "period_1": 1298.0,
+          "period_2": 721.0,
+          "difference": -577.0,
+          "percent_change": -44.45
+        },
+        "Holiday Season Promotion": {
+          "period_1": 1831.0,
+          "period_2": 0.0,
+          "difference": -1831.0,
+          "percent_change": -100.0
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_3",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Clicks by Agency/PMD (af_prt) between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25.",
+      "metric_column": "Clicks",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "time_period_1": "2024-01-13 to 2024-12-12",
+      "time_period_2": "2025-01-27 to 2025-12-25",
+      "expected_result": {
+        "Agency_7": {
+          "period_1": 586.0,
+          "period_2": 0.0,
+          "difference": -586.0,
+          "percent_change": -100.0
+        },
+        "Agency_9": {
+          "period_1": 921.0,
+          "period_2": 177.0,
+          "difference": -744.0,
+          "percent_change": -80.78
+        },
+        "Agency_2": {
+          "period_1": 1861.0,
+          "period_2": 657.0,
+          "difference": -1204.0,
+          "percent_change": -64.7
+        },
+        "Agency_1": {
+          "period_1": 975.0,
+          "period_2": 72.0,
+          "difference": -903.0,
+          "percent_change": -92.62
+        },
+        "Agency_3": {
+          "period_1": 1772.0,
+          "period_2": 925.0,
+          "difference": -847.0,
+          "percent_change": -47.8
+        },
+        "Agency_4": {
+          "period_1": 0.0,
+          "period_2": 781.0,
+          "difference": 781.0,
+          "percent_change": null
+        },
+        "Agency_10": {
+          "period_1": 1079.0,
+          "period_2": 993.0,
+          "difference": -86.0,
+          "percent_change": -7.97
+        },
+        "Agency_8": {
+          "period_1": 861.0,
+          "period_2": 0.0,
+          "difference": -861.0,
+          "percent_change": -100.0
+        },
+        "Agency_6": {
+          "period_1": 701.0,
+          "period_2": 895.0,
+          "difference": 194.0,
+          "percent_change": 27.67
+        },
+        "Agency_5": {
+          "period_1": 1574.0,
+          "period_2": 3890.0,
+          "difference": 2316.0,
+          "percent_change": 147.14
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_4",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Conversions by Conversion Type between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25.",
+      "metric_column": "Conversions",
+      "group_by_column": "Conversion Type",
+      "time_period_1": "2024-01-13 to 2024-12-12",
+      "time_period_2": "2025-01-27 to 2025-12-25",
+      "expected_result": {
+        "install": {
+          "period_1": 477.0,
+          "period_2": 207.0,
+          "difference": -270.0,
+          "percent_change": -56.6
+        },
+        "purchase": {
+          "period_1": 192.0,
+          "period_2": 74.0,
+          "difference": -118.0,
+          "percent_change": -61.46
+        },
+        "lead": {
+          "period_1": 213.0,
+          "period_2": 339.0,
+          "difference": 126.0,
+          "percent_change": 59.15
+        },
+        "re-attribution": {
+          "period_1": 544.0,
+          "period_2": 522.0,
+          "difference": -22.0,
+          "percent_change": -4.04
+        }
+      },
+      "difficulty": "hard"
+    },
+    {
+      "id": "time_comp_grouped_5",
+      "category": "time_period_comparison_grouped",
+      "question": "Compare the total Conversions by Agency/PMD (af_prt) between 2024-01-13 to 2024-12-12 and 2025-01-27 to 2025-12-25.",
+      "metric_column": "Conversions",
+      "group_by_column": "Agency/PMD (af_prt)",
+      "time_period_1": "2024-01-13 to 2024-12-12",
+      "time_period_2": "2025-01-27 to 2025-12-25",
+      "expected_result": {
+        "Agency_7": {
+          "period_1": 47.0,
+          "period_2": 0.0,
+          "difference": -47.0,
+          "percent_change": -100.0
+        },
+        "Agency_9": {
+          "period_1": 90.0,
+          "period_2": 70.0,
+          "difference": -20.0,
+          "percent_change": -22.22
+        },
+        "Agency_2": {
+          "period_1": 385.0,
+          "period_2": 88.0,
+          "difference": -297.0,
+          "percent_change": -77.14
+        },
+        "Agency_1": {
+          "period_1": 76.0,
+          "period_2": 71.0,
+          "difference": -5.0,
+          "percent_change": -6.58
+        },
+        "Agency_3": {
+          "period_1": 231.0,
+          "period_2": 171.0,
+          "difference": -60.0,
+          "percent_change": -25.97
+        },
+        "Agency_4": {
+          "period_1": 0.0,
+          "period_2": 83.0,
+          "difference": 83.0,
+          "percent_change": null
+        },
+        "Agency_10": {
+          "period_1": 24.0,
+          "period_2": 53.0,
+          "difference": 29.0,
+          "percent_change": 120.83
+        },
+        "Agency_8": {
+          "period_1": 73.0,
+          "period_2": 0.0,
+          "difference": -73.0,
+          "percent_change": -100.0
+        },
+        "Agency_6": {
+          "period_1": 105.0,
+          "period_2": 147.0,
+          "difference": 42.0,
+          "percent_change": 40.0
+        },
+        "Agency_5": {
+          "period_1": 105.0,
+          "period_2": 358.0,
+          "difference": 253.0,
+          "percent_change": 240.95
+        }
+      },
+      "difficulty": "hard"
+    }
+  ]
+}

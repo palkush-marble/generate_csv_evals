@@ -1,6 +1,6 @@
 # Appsflyer Dataset - 100 Rows
 
-Generated on: 2025-10-16T13:50:38.485799
+Generated on: 2025-10-16T14:13:31.025617
 
 ## Structure
 
@@ -28,12 +28,12 @@ datasets/Appsflyer/
 - Date columns: Date
 
 ### Date Range
-- Start: 2024-01-10
-- End: 2025-12-28
+- Start: 2024-01-05
+- End: 2025-12-27
 
 ## Evaluation Datasets
 
-Total test cases: **50**
+Total test cases: **49**
 
 ### Data Aggregation
 - Test cases: **25**
@@ -44,7 +44,7 @@ Total test cases: **50**
 - Description: Test cases for comparing metrics between different time periods
 
 ### Custom Metrics
-- Test cases: **5**
+- Test cases: **4**
 - Description: Test cases for calculating and aggregating custom business metrics
 
 ## Files Generated
@@ -52,7 +52,7 @@ Total test cases: **50**
 | File | Size | Description |
 |------|------|-------------|
 | `appsflyer_synthetic_100rows_10cols.csv` | 0.01 MB | Synthetic data |
-| `eval_dataset_all.json` | 46.5 KB | Combined |\n| `eval_dataset_aggregation.json` | 21.1 KB | Aggregation |\n| `eval_dataset_time_comparison.json` | 17.4 KB | Time Comparison |\n| `eval_dataset_custom_metrics.json` | 2.9 KB | Custom Metrics |\n
+| `eval_dataset_all.json` | 43.8 KB | Combined |\n| `eval_dataset_aggregation.json` | 17.7 KB | Aggregation |\n| `eval_dataset_time_comparison.json` | 18.5 KB | Time Comparison |\n| `eval_dataset_custom_metrics.json` | 2.6 KB | Custom Metrics |\n
 ## Usage
 
 ### Load Synthetic Data
